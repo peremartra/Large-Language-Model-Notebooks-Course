@@ -1,4 +1,4 @@
-# Large Language Models Course: Hands on learnign building projects.
+# Large Language Models Course: Learn Building LLM Projects.
 I'm currently developing a course on Large Language Models (LLMs) and their applications. This repository will house all the notebooks utilized throughout the course.
 
 The course provides a hands-on experience using models from OpenAI and the Hugging Face library. We are going to see and use a lot of tools and practice with small projects that will grow as we can apply the new knowledge"
@@ -7,7 +7,11 @@ Some of the topics and technologies covered in the course include:
  
 * Chatbots. 
 
-* Code Generation. 
+* Code Generation.
+
+* OpenAI API.
+
+* Hugging Face. 
 
 * Vector databases.
 
