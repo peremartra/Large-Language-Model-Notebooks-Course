@@ -17,8 +17,6 @@ Some of the topics and technologies covered in the course include:
 
 * LangChain.
 
-* Fine-tuning.
-
 * Transfer Learning. 
 
 * Knowdledge Distillation.
@@ -36,5 +34,11 @@ Following the same framework utilized in the previous article to create the Chat
 With these modifications in place, the translator is capable of converting natural language queries into SQL queries. 
 * Article: https://pub.towardsai.net/how-to-create-a-natural-language-to-sql-translator-using-openai-api-e1b1f72ac35a
 * Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/nl2sql.ipynb
+
+## Influencing Language Models with Personalized Information using a Vector Database. 
+If there's one aspect gaining importance in the world of large language models, it's exploring how to leverage proprietary information with them. In this lesson, we explore a possible solution that involves storing information in a vector database, ChromaDB in our case, and using it to create enriched prompts.
+* Article: https://pub.towardsai.net/harness-the-power-of-vector-databases-influencing-language-models-with-personalized-information-ab2f995f09ba
+* Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/how-to-use-a-embedding-database-with-a-llm-from-hf.ipynb
+  
 _____________
 The course will consist of a minimum of 12 articles. To stay updated on new articles, please consider following the repository or starring it. This way, you'll receive notifications whenever new content is added. 
