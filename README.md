@@ -41,4 +41,4 @@ If there's one aspect gaining importance in the world of large language models, 
 * Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/how-to-use-a-embedding-database-with-a-llm-from-hf.ipynb
   
 _____________
-The course will consist of a minimum of 12 articles. To stay updated on new articles, please consider following the repository or starring it. This way, you'll receive notifications whenever new content is added. 
+The course will consist of a minimum of 12 articles. To stay updated on new articles, don't forget to follow the repository or starring it. This way, you'll receive notifications whenever new content is added. 
