@@ -46,7 +46,7 @@ It allows us to chain calls to Models and other systems, allowing us to build ap
 
 ### Retrieval Augmented Generation (RAG). Use the Data from your DataFrames with LLMs.
 In this lesson, we used LangChain to enhance the notebook from the previous lesson, where we used data from two datasets to create an enriched prompt. This time, with the help of LangChain, we built a pipeline that is responsible for retrieving data from the vector database and passing it to the Language Model. The notebook is set up to work with two different datasets and two different models. One of the models is trained for Text Generation, while the other is trained for Text2Text Generation.
-* Article: 
+* Article: https://medium.com/towards-artificial-intelligence/query-your-dataframes-with-powerful-large-language-models-using-langchain-abe25782def5
 * Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/ask-your-documents-with-langchain-vectordb-hf.ipynb
 _____________
 The course will consist of a minimum of 12 articles. To stay updated on new articles, don't forget to follow the repository or starring it. This way, you'll receive notifications whenever new content is added. 
