@@ -48,5 +48,13 @@ It allows us to chain calls to Models and other systems, allowing us to build ap
 In this lesson, we used LangChain to enhance the notebook from the previous lesson, where we used data from two datasets to create an enriched prompt. This time, with the help of LangChain, we built a pipeline that is responsible for retrieving data from the vector database and passing it to the Language Model. The notebook is set up to work with two different datasets and two different models. One of the models is trained for Text Generation, while the other is trained for Text2Text Generation.
 * Article: https://medium.com/towards-artificial-intelligence/query-your-dataframes-with-powerful-large-language-models-using-langchain-abe25782def5
 * Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/ask-your-documents-with-langchain-vectordb-hf.ipynb
+
+### Create a Data Analyst Assistant using a LLM Agent. 
+Agents are one of the most powerful tools in the world of Large Language Models. The agent is capable of interpreting the user's request and using the tools and libraries at its disposal until it achieves the expected result.
+
+With LangChain Agents, we are going to create in just a few lines one of the simplest yet incredibly powerful agents. The agent will act as a Data Analyst Assistant and help us in analyzing data contained in any Excel file. It will be able to identify trends, use models, make forecasts. In summary, we are going to create a simple agent that we can use in our daily work to analyze our data.
+
+* Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/LangChain_Agent_create_Data_Scientist_Assistant.ipynb
+  
 _____________
 The course will consist of a minimum of 12 articles. To stay updated on new articles, don't forget to follow the repository or starring it. This way, you'll receive notifications whenever new content is added. 
