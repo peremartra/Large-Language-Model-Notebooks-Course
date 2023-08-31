@@ -13,8 +13,8 @@ Some of the topics and technologies covered in the course include:
 * LangChain.
 * Fine Tuning
 * PEFT Fine Tuning
-* - Soft Prompt tuning.
-* - LoRA.
+  - Soft Prompt tuning.
+  - LoRA.
 * Evaluate Models. 
 * Knowdledge Distillation.
 
