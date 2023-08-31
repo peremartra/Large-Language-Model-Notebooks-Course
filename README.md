@@ -11,7 +11,10 @@ Some of the topics and technologies covered in the course include:
 * Hugging Face. 
 * Vector databases.
 * LangChain.
-* Transfer Learning.
+* Fine Tuning
+* PEFT Fine Tuning
+* - Soft Prompt tuning.
+* - LoRA.
 * Evaluate Models. 
 * Knowdledge Distillation.
 
