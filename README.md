@@ -65,7 +65,7 @@ Agents are one of the most powerful tools in the world of Large Language Models.
 
 With LangChain Agents, we are going to create in just a few lines one of the simplest yet incredibly powerful agents. The agent will act as a Data Analyst Assistant and help us in analyzing data contained in any Excel file. It will be able to identify trends, use models, make forecasts. In summary, we are going to create a simple agent that we can use in our daily work to analyze our data.
 
-* Article: https://medium.com/towards-artificial-intelligence/create-your-own-data-analyst-assistant-with-langchain-agents-722f1cdcdd7e
+* Article: https://pub.towardsai.net/create-your-own-data-analyst-assistant-with-langchain-agents-722f1cdcdd7e
 * Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/LangChain_Agent_create_Data_Scientist_Assistant.ipynb
 
 ## Evaluating LLMs
