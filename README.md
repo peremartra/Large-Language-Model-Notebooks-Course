@@ -23,19 +23,19 @@ Each notebook is supported with a Medium article where the code is explained in 
 ## Create Your First Chatbot Using GPT 3.5, OpenAI, Python and Panel.
 We will be utilizing OpenAI GPT-3.5 and Panel to develop a straightforward Chatbot tailored for a fast food restaurant. During the course, we will explore the fundamentals of prompt engineering, including understanding the various OpenAI roles, manipulating temperature settings, and how to avoid Prompt Injections. 
 * Article: https://medium.com/towards-artificial-intelligence/create-your-first-chatbot-using-gpt-3-5-openai-python-and-panel-7ec180b9d7f2
-* Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/Introduction%20to%20LLM/Vertical%20Chat.ipynb
+* Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/Vertical%20Chat.ipynb
 
 ## How to Create a Natural Language to SQL Translator Using OpenAI API.
 Following the same framework utilized in the previous article to create the ChatBot, we made a few modifications to develop a Natural Language to SQL translator. In this case, the Model needs to be provided with the table structures, and adjustments were made to the prompt to ensure smooth functionality and avoid any potential malfunctions.
 
 With these modifications in place, the translator is capable of converting natural language queries into SQL queries. 
 * Article: https://pub.towardsai.net/how-to-create-a-natural-language-to-sql-translator-using-openai-api-e1b1f72ac35a
-* Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/Introduction%20to%20LLM/nl2sql.ipynb
+* Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/nl2sql.ipynb
   
 ## Influencing Language Models with Personalized Information using a Vector Database. 
 If there's one aspect gaining importance in the world of large language models, it's exploring how to leverage proprietary information with them. In this lesson, we explore a possible solution that involves storing information in a vector database, ChromaDB in our case, and using it to create enriched prompts.
 * Article: https://pub.towardsai.net/harness-the-power-of-vector-databases-influencing-language-models-with-personalized-information-ab2f995f09ba?sk=ea2c5286fbff8430e5128b0c3588dbab
-* Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/Vector%20Databases%20with%20LLMs/how-to-use-a-embedding-database-with-a-llm-from-hf.ipynb
+* Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/2-Vector%20Databases%20with%20LLMs/how-to-use-a-embedding-database-with-a-llm-from-hf.ipynb
 
 ## LangChain
 LangChain has been one of the libraries in the universe of large language models that has contributed the most to this revolution. 
