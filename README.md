@@ -82,7 +82,7 @@ We will explore the usage of the ROUGE metric to measure the quality of summarie
 We are going to use two T5 models, one of them being the t5-Base model and the other a t5-base fine-tuned specifically designed for creating summaries.
 
 * Article: https://medium.com/towards-artificial-intelligence/rouge-metrics-evaluating-summaries-in-large-language-models-d200ee7ca0e6
-* Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course
+* Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/rouge-evaluation-untrained-vs-trained-llm.ipynb
   
 _____________
 The course will consist of a minimum of 12 articles. To stay updated on new articles, don't forget to follow the repository or starring it. This way, you'll receive notifications whenever new content is added. 
