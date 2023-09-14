@@ -59,6 +59,8 @@ I will create separate notebooks for this task. One will involve models from Ope
 * OpenAI notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/LangChain_OpenAI_Moderation_System.ipynb
   
 * Hugging Face Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/HF_gpt_j_6b_Moderation_System.ipynb
+
+* Llama2-7B Article: https://levelup.gitconnected.com/create-a-self-moderated-comment-system-with-llama-2-and-langchain-656f482a48be?sk=701ead7afb80e015ea4345943a1aeb1d
 * Llama2-7B Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/HF_LLAMA2_LangChain_Moderation_System.ipynb
 
 ### Create a Data Analyst Assistant using a LLM Agent. 
