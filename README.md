@@ -100,4 +100,8 @@ In this notebook, two models are trained using Prompt Tuning from the PEFT libra
 Prompt tuning is an additive technique, and the weights of the pre-trained model are not modified. The weights that we modify in this case are those of virtual tokens that we add to the prompt.
 * notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/5-Fine%20Tuning/Prompt_Tuning_PEFT.ipynb
 _____________
-The course will consist of a minimum of 12 articles. To stay updated on new articles, don't forget to follow the repository or starring it. This way, you'll receive notifications whenever new content is added. 
+The course will consist of a minimum of 20 articles. To stay updated on new articles, don't forget to follow the repository or starring it. This way, you'll receive notifications whenever new content is added. 
+_____________
+#Papers used in the Course: 
+[arXiv:2104.08691](https://doi.org/10.48550/arXiv.2104.08691). Fin Tuning Lesson. Prompt Tuning Sample. 
+
