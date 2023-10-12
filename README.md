@@ -110,5 +110,6 @@ The course will consist of a minimum of 20 articles. To stay updated on new arti
 _____________
 # Papers used in the Course: 
 [The Power of Scale for Parameter-Efficient Prompt Tuning](https://doi.org/10.48550/arXiv.2104.08691). Fine Tuning & Optimizacion Lesson. Prompt Tuning Sample. 
+
 [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685). Fine Tuning & Optimizacion Lesson. LoRA Tuning Sample. 
 
