@@ -14,4 +14,6 @@ After a brief explanation of how the fine-tuning technique LoRA works, we will f
 * notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/5-Fine%20Tuning/LoRA_Tuning_PEFT.ipynb
 
 # Papers used in the Chapter: 
-[arXiv:2104.08691](https://doi.org/10.48550/arXiv.2104.08691). The Power of Scale for Parameter-Efficient Prompt Tuning. Prompt Tuning Lesson.  
+[The Power of Scale for Parameter-Efficient Prompt Tuning](https://doi.org/10.48550/arXiv.2104.08691). Fine Tuning & Optimizacion Lesson. Prompt Tuning Sample. 
+
+[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685). Fine Tuning & Optimizacion Lesson. LoRA Tuning Sample. 
