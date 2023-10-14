@@ -105,6 +105,12 @@ Prompt tuning is an additive technique, and the weights of the pre-trained model
 After a brief explanation of how the fine-tuning technique LoRA works, we will fine-tune a model from the Bloom family to teach it to construct prompts that can be used to instruct large language models.
 * article: https://levelup.gitconnected.com/efficient-fine-tuning-with-lora-optimal-training-for-large-language-models-266b63c973ca?sk=85d7b5d78e64e568faedfe07a35f81bd
 * notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/5-Fine%20Tuning/LoRA_Tuning_PEFT.ipynb
+
+### Fine-Tuning a 7B Model in a single 16GB GPU using QLoRA.
+We are going to see a brief introduction to quantization, used to reduce the size of big Large Language Models. With quantization you can load big models reducing the memory resources needed. It also applies to the fine-tunig process, you can fine-tune the model in a single GPU without consuming all the resources. 
+After the brief explanation we see an example about how is possible to fine-tune a Bloom 7B Model ina a t4 16GB GPU on Google Colab. 
+* notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/5-Fine%20Tuning/QLoRA_Tuning_PEFT.ipynb
+  
 _____________
 The course will consist of a minimum of 20 articles. To stay updated on new articles, don't forget to follow the repository or starring it. This way, you'll receive notifications whenever new content is added. 
 _____________
