@@ -13,6 +13,11 @@ After a brief explanation of how the fine-tuning technique LoRA works, we will f
 * article: https://medium.com/towards-artificial-intelligence/fine-tuning-models-using-prompt-tuning-with-hugging-faces-peft-library-998ae361ee27
 * notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/5-Fine%20Tuning/LoRA_Tuning_PEFT.ipynb
 
+### Fine-Tuning a 7B Model in a single 16GB GPU using QLoRA.
+We are going to see a brief introduction to quantization, used to reduce the size of big Large Language Models. With quantization you can load big models reducing the memory resources needed. It also applies to the fine-tunig process, you can fine-tune the model in a single GPU without consuming all the resources. After the brief explanation we see an example about how is possible to fine-tune a Bloom 7B Model ina a t4 16GB GPU on Google Colab.
+
+* notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/5-Fine%20Tuning/QLoRA_Tuning_PEFT.ipynb
+
 # Papers used in the Chapter: 
 [The Power of Scale for Parameter-Efficient Prompt Tuning](https://doi.org/10.48550/arXiv.2104.08691). Prompt tuning using PEFT Library from Hugging Face. 
 
