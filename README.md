@@ -116,6 +116,8 @@ Please, if you found ay problem, open an [issue](https://github.com/peremartra/L
 
 If you'd like to make a contribution or suggest a topic, please don't hesitate to start a [Discussion](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/discussions). I'd be delighted to receive any opinions or advice.
 
+Don't be shy, share the course on your social networks with your friends. Connect with me on [LinkedIn](https://www.linkedin.com/in/pere-martra/) or [Twitter](https://twitter.com/PereMartra) and feel free to share anything you'd like or ask any questions you may have.
+
 _____________
 # Papers used in the Course: 
 [The Power of Scale for Parameter-Efficient Prompt Tuning](https://doi.org/10.48550/arXiv.2104.08691). Fine Tuning & Optimizacion Lesson. Prompt Tuning Sample. 
@@ -123,4 +125,6 @@ _____________
 [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685). Fine Tuning & Optimizacion Lesson. LoRA Fine-Tuning Sample. 
 
 [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314). Fine Tuning & Optimizacion Lesson. QLoRA Fine-Tuning Sample.
+
+Give a Star ⭐️ to the repository. It helps me a lot, and ecourage me to continue adding lessons. It's a nice way to support free Open Source courses like this. 
 
