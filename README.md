@@ -1,22 +1,21 @@
 # Large Language Models Course: Learn by Doing LLM Projects.
 **This practical free hands on course about Large Language models and their applicacions is still in development. I will be posting the different lessons as I complete them.**
 
-The course provides a hands-on experience using models from OpenAI and the Hugging Face library. We are going to see and use a lot of tools and practice with small projects that will grow as we can apply the new knowledge"
+The course provides a hands-on experience using models from OpenAI and the Hugging Face library. We are going to see and use a lot of tools and practice with small projects that will grow as we can apply the new knowledge. 
 
-Some of the topics and technologies covered in the course include:
- 
-* Chatbots. 
-* Code Generation.
-* OpenAI API.
-* Hugging Face. 
-* Vector databases.
-* LangChain.
-* Fine Tuning
-* PEFT Fine Tuning
-  - Soft Prompt tuning.
-  - LoRA.
-* Evaluate Models. 
-* Knowdledge Distillation.
+<h1> The course is divided into three major sections:</h1>
+
+<h2>1- Techniques and Libraries:</h2> 
+In this section, we will explore different techniques through small examples that will enable us to build projects in the following section. We will learn how to use the most common libraries in the world of Large Language Models, always with a practical focus, while basing our approach on published papers.
+Some of the topics and technologies covered in this section include: Chatbots, Code Generation, OpenAI API, Hugging Face, Vector databases, LangChain, Fine Tuning, PEFT Fine Tuning, Soft Prompt tuning, LoRA, QLoRA, Evaluate Models, Knowdledge Distillation.
+
+<h2>2- Projects:</h2> 
+We will create projects, explaining design decisions. Each project may have more than one possible implementation, as often there is not just one good solution. In this section, we will also delve into LLMOps-related topics, although it is not the primary focus of the course.
+
+<h2>3- Enterprise Solutions:</h2> Large Language Models are not a standalone solution; in large corporate environments, they are just one piece of the puzzle. We will explore how to structure solutions capable of transforming organizations with thousands of employees, and how Large Language Models play a main role in these new solutions.
+
+_____________
+<h1>🚀1- Techniques and Libraries.</h1>
 
 Each notebook is supported with a Medium article where the code is explained in detail. 
 ## Introduction to Large Language Models with OpenAI.
@@ -112,7 +111,11 @@ After the brief explanation we see an example about how is possible to fine-tune
 * notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/5-Fine%20Tuning/QLoRA_Tuning_PEFT.ipynb
   
 _____________
-The course will consist of a minimum of 20 articles. To stay updated on new articles, don't forget to follow the repository or starring it. This way, you'll receive notifications whenever new content is added. 
+### Contributing to the course: 
+Please, if you found ay problem, open an [issue](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/issues) . I will try my best to fix it asap, and give credits to you.  
+
+If you'd like to make a contribution or suggest a topic, please don't hesitate to start a [Discussion](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/discussions). I'd be delighted to receive any opinions or advice.
+
 _____________
 # Papers used in the Course: 
 [The Power of Scale for Parameter-Efficient Prompt Tuning](https://doi.org/10.48550/arXiv.2104.08691). Fine Tuning & Optimizacion Lesson. Prompt Tuning Sample. 
