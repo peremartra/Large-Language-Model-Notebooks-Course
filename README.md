@@ -18,7 +18,7 @@ _____________
 <h1>🚀1- Techniques and Libraries.</h1>
 
 Each notebook is supported with a Medium article where the code is explained in detail. 
-## Introduction to Large Language Models with OpenAI.
+## [Introduction to Large Language Models with OpenAI.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/1-Introduction%20to%20LLMs%20with%20OpenAI)
 In this first section of the course, we will learn to work with the OpenAI API by creating two small projects. We'll delve into OpenAI's roles and how to provide the necessary instructions to the model through the prompt to make it behave as we desire.
 
 The first project is a restaurant chatbot where the model will take customer orders. Building upon this project, we will construct an SQL statement generator. Here, we'll attempt to create a secure prompt that only accepts SQL creation commands and nothing else.
@@ -34,7 +34,7 @@ With these modifications in place, the translator is capable of converting natur
 * Article: https://pub.towardsai.net/how-to-create-a-natural-language-to-sql-translator-using-openai-api-e1b1f72ac35a
 * Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/nl2sql.ipynb
   
-## Vector Databases with LLM. 
+## [Vector Databases with LLMs.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/2-Vector%20Databases%20with%20LLMs) 
 A brief introduction to Vector Databases, a technology that will accompany us in many lessons throughout the course. We will work on an example of Retrieval Augmented Generation using information from various news datasets stored in ChromaDB.
 
 ### Influencing Language Models with Personalized Information using a Vector Database. 
@@ -42,7 +42,7 @@ If there's one aspect gaining importance in the world of large language models, 
 * Article: https://pub.towardsai.net/harness-the-power-of-vector-databases-influencing-language-models-with-personalized-information-ab2f995f09ba?sk=ea2c5286fbff8430e5128b0c3588dbab
 * Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/2-Vector%20Databases%20with%20LLMs/how-to-use-a-embedding-database-with-a-llm-from-hf.ipynb
 
-## LangChain
+## [LangChain.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/3-LangChain)
 LangChain has been one of the libraries in the universe of large language models that has contributed the most to this revolution. 
 It allows us to chain calls to Models and other systems, allowing us to build applications based on large language models. In the course, we will use it several times, creating increasingly complex projects.
 
@@ -76,7 +76,7 @@ With LangChain Agents, we are going to create in just a few lines one of the sim
 * Article: https://pub.towardsai.net/create-your-own-data-analyst-assistant-with-langchain-agents-722f1cdcdd7e
 * Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/LangChain_Agent_create_Data_Scientist_Assistant.ipynb
 
-## Evaluating LLMs
+## [Evaluating LLMs.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/4-Evaluating%20LLMs)
 The metrics used to measure the performance of Large Language Models are quite different from the ones we've been using in more traditional models. We're shifting away from metrics like Accuracy, F1 score, or recall, and moving towards metrics like BLEU, ROUGE, or METEOR. 
 
 These metrics are tailored to the specific task assigned to the language model. 
@@ -90,7 +90,7 @@ We are going to use two T5 models, one of them being the t5-Base model and the o
 * Article: https://medium.com/towards-artificial-intelligence/rouge-metrics-evaluating-summaries-in-large-language-models-d200ee7ca0e6
 * Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/rouge-evaluation-untrained-vs-trained-llm.ipynb
 
-## Fine Tuning & Optimization. 
+## [Fine Tuning & Optimization.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/5-Fine%20Tuning) 
 In the FineTuning & Optimization section, we will explore different techniques such as Prompt Fine Tuning or LoRA, and we will use the Hugging Face PEFT library to efficiently fine-tune Large Language Models. We will explore techniques like quantization to reduce the weight of the Models. 
 
 ### Prompt tuning using PEFT Library from Hugging Face. 
