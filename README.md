@@ -113,7 +113,7 @@ After the brief explanation we see an example about how is possible to fine-tune
   
 _____________
 ### Contributing to the course: 
-Please, if you found ay problem, open an [issue](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/issues) . I will try my best to fix it asap, and give credits to you.  
+Please, if you find any problems, open an [issue](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/issues) . I will do my best to fix it as soon as possible, and give you credit.  
 
 If you'd like to make a contribution or suggest a topic, please don't hesitate to start a [Discussion](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/discussions). I'd be delighted to receive any opinions or advice.
 
