@@ -17,5 +17,5 @@ In this initial project step, we'll start with a previously created prompt in a 
 We continue adapting the prompt created for OpenAI to SQLCoder, an open-source model from Hugging Face trained from the super-efficient Mistral 7B.
 * Prompt creation for defog/SQLCoder: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/nl2sql_prompt_SQLCoder.ipynb
 
-* # Papers used in the project:
+# Papers used in the project:
 * [How to Prompt LLMs for Text-to-SQL: A Study in Zero-shot, Single-domain, and Cross-domain Settings](https://arxiv.org/abs/2305.11853)
