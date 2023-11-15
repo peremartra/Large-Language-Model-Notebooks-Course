@@ -121,6 +121,14 @@ In this straightforward initial project, we are going to develop a SQL generator
 * Prompt creation for defog/SQLCoder: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/nl2sql_prompt_SQLCoder.ipynb
 
 _____________
+<h1>🚀3- Architecting Enterprise Solutions.</h1>
+
+## [Architecting a NL2SQL Solution for inmense Enterprise Databases.](https://github.com/peremartra/private_test/blob/main/README.md#architecting-a-nl2sql-solution-for-inmense-enterprise-databases).
+In this initial solution, we design an architecture for an NL2SQL system capable of operating on a large database. The system is intended to be used with two or three different models. In fact, we use three models in the example. 
+
+It's an architecture that enables a fast project kickoff, providing service for only a few tables in the database, allowing us to add more tables at our pace.
+
+_____________
 ### Contributing to the course: 
 Please, if you find any problems, open an [issue](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/issues) . I will do my best to fix it as soon as possible, and give you credit.  
 
