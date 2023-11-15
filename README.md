@@ -123,7 +123,7 @@ In this straightforward initial project, we are going to develop a SQL generator
 _____________
 <h1>🚀3- Architecting Enterprise Solutions.</h1>
 
-## [Architecting a NL2SQL Solution for inmense Enterprise Databases.](https://github.com/peremartra/private_test/blob/main/README.md#architecting-a-nl2sql-solution-for-inmense-enterprise-databases).
+## [Architecting a NL2SQL Solution for inmense Enterprise Databases.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/E1-NL2SQL%20for%20big%20Databases).
 In this initial solution, we design an architecture for an NL2SQL system capable of operating on a large database. The system is intended to be used with two or three different models. In fact, we use three models in the example. 
 
 It's an architecture that enables a fast project kickoff, providing service for only a few tables in the database, allowing us to add more tables at our pace.
