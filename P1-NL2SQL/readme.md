@@ -12,7 +12,7 @@ xAlthough both prompts are based on the same paper, there are slight differences
 
 Besides creating the prompt, we conduct a few tests and observe how both models generate SQL commands correctly.
 * Article. [Create a SuperPrompt for Natural Language to SQL Conversion for OpenAI.](https://pub.towardsai.net/create-a-superprompt-for-natural-language-to-sql-conversion-for-openai-9d19f0efe8f4?sk=88889b3417c97481e6a907e3aef74ca2)
-* Notebook. Prompt creation for OpenAI. : [https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/nl2sql_enhaced_ohaio.ipynb](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/nl2sql_prompt_OpenAI.ipynb)
+* Notebook. [Prompt creation for OpenAI.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/nl2sql_prompt_OpenAI.ipynb)
 
 ### Azure Configuration. 
 In Azure, we will configure the Open Services using the prompt created earlier for OpenAI models. This allows us to conduct tests and set up an inference endpoint to call for obtaining SQL commands.
