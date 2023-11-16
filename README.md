@@ -119,6 +119,8 @@ In this straightforward initial project, we are going to develop a SQL generator
 
 * Prompt creation for OpenAI. Notebook: [https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/nl2sql_enhaced_ohaio.ipynb](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/nl2sql_prompt_OpenAI.ipynb)
 * Prompt creation for defog/SQLCoder: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/nl2sql_prompt_SQLCoder.ipynb
+* Inference Azure Configuration. Article: https://pub.towardsai.net/how-to-set-up-an-nl2sql-system-with-azure-openai-studio-2fcfc7b57301
+* Using Azure Inference Point. Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/NL2SQL_OpenAI_Azure.ipynb 
 
 _____________
 <h1>🚀3- Architecting Enterprise Solutions.</h1>
