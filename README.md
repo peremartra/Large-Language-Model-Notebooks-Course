@@ -130,6 +130,9 @@ In this initial solution, we design an architecture for an NL2SQL system capable
 
 It's an architecture that enables a fast project kickoff, providing service for only a few tables in the database, allowing us to add more tables at our pace.
 
+##[Decoding Risk: Transforming Banks with Customer Embeddings.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/E2-Transforming%20Banks%20With%20Embeddings)
+In this solution, we explore the transformative power of embeddings and large language models (LLMs) in customer risk assessment and product recommendation in the financial industry. We'll be altering the format in which we store customer information, and consequently, we'll also be changing how this information travels within the systems, achieving important advantatges. 
+
 _____________
 ### Contributing to the course: 
 Please, if you find any problems, open an [issue](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/issues) . I will do my best to fix it as soon as possible, and give you credit.  
