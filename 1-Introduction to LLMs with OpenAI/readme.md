@@ -14,6 +14,6 @@ With these modifications in place, the translator is capable of converting natur
 * Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/nl2sql.ipynb
 
 ### Brief Introduction to Prompt Engineering with OpenAI. 
-We will explore prompt engineering techniques toi improve the results we obtain from Models. Like how to format the answer and obtain a structured eresponse using Few Shot Samples. 
+We will explore prompt engineering techniques to improve the results we obtain from Models. Like how to format the answer and obtain a structured response using Few Shot Samples. 
 * Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/Prompt_Engineering_OpenAI.ipynb
 
