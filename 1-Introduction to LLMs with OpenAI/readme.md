@@ -12,3 +12,8 @@ Following the same framework utilized in the previous article to create the Chat
 With these modifications in place, the translator is capable of converting natural language queries into SQL queries. 
 * Article: https://pub.towardsai.net/how-to-create-a-natural-language-to-sql-translator-using-openai-api-e1b1f72ac35a
 * Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/nl2sql.ipynb
+
+### Brief Introduction to Prompt Engineering with OpenAI. 
+We will explore prompt engineering techniques toi improve the results we obtain from Models. Like how to format the answer and obtain a structured eresponse using Few Shot Samples. 
+* Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/Prompt_Engineering_OpenAI.ipynb
+
