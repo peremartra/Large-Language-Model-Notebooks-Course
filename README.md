@@ -14,6 +14,14 @@ We will create projects, explaining design decisions. Each project may have more
 
 <h2>3- Enterprise Solutions:</h2> Large Language Models are not a standalone solution; in large corporate environments, they are just one piece of the puzzle. We will explore how to structure solutions capable of transforming organizations with thousands of employees, and how Large Language Models play a main role in these new solutions.
 
+<h1>How to use the course.</h1>
+Under each section you can foun different chapters, each chapter is formed by different lessons. You have a link to the main file of the chapter. Jucst click in the tittle. 
+Each Lesson is conformed by notebooks and articles, tven though the notebooks contain sufficient information for understanding the code within them, the article provides more detailed explanations. My advice is to have the article open alongside the notebook and follow along. Many of the articles offer small tips on variations that you can introduce to the notebooks, and I recommend following them to enhance clarity of the concepts.
+
+Most of the notebooks are hosted on Colab, while a few are on Kaggle. Kaggle provides more memory in the free version compared to Colab, but I find that copying ansd sharing notebooks is simpler in Colab, and not everyone has a Kaggle account.
+
+Some of the notebooks require more memory than what the free version of Colab provides. As we are working with large language models, this is a common situation that will recur if you continue working with them. You can run the notebooks in your own environment or opt for the Pro version of Colab.
+
 _____________
 <h1>🚀1- Techniques and Libraries.</h1>
 
@@ -33,6 +41,11 @@ Following the same framework utilized in the previous article to create the Chat
 With these modifications in place, the translator is capable of converting natural language queries into SQL queries. 
 * Article: https://pub.towardsai.net/how-to-create-a-natural-language-to-sql-translator-using-openai-api-e1b1f72ac35a
 * Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/nl2sql.ipynb
+
+## Brief Introduction to Prompt Engineering with OpenAI.
+We will explore prompt engineering techniques to improve the results we obtain from Models. Like how to format the answer and obtain a structured response using Few Shot Samples.
+
+* Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/Prompt_Engineering_OpenAI.ipynb
   
 ## [Vector Databases with LLMs.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/2-Vector%20Databases%20with%20LLMs) 
 A brief introduction to Vector Databases, a technology that will accompany us in many lessons throughout the course. We will work on an example of Retrieval Augmented Generation using information from various news datasets stored in ChromaDB.
