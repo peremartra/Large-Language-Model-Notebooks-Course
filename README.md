@@ -21,7 +21,6 @@ Each Lesson is conformed by notebooks and articles, tven though the notebooks co
 Most of the notebooks are hosted on Colab, while a few are on Kaggle. Kaggle provides more memory in the free version compared to Colab, but I find that copying ansd sharing notebooks is simpler in Colab, and not everyone has a Kaggle account.
 
 Some of the notebooks require more memory than what the free version of Colab provides. As we are working with large language models, this is a common situation that will recur if you continue working with them. You can run the notebooks in your own environment or opt for the Pro version of Colab.
-
 _____________
 <h1>🚀1- Techniques and Libraries.</h1>
 
