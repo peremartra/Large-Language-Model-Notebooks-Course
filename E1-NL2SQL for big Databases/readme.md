@@ -86,10 +86,10 @@ print(return_OAI(pqt1))
   ]
 }
 ```
-PERFECT! Kudor for GPT3.5-Turbo, he can Identify the tables necessary to construct the SQL.
+PERFECT! Kudos for GPT3.5-Turbo, he can Identify the tables necessary to construct the SQL.
 
 ## Creating the prompt to obtain the SQL. 
-This prompt is moe comlicated that the one we created to recover the name of the tables. We are going to follow the instructions of a paper from teh Ohio University: [How to Prompt LLMs for Text-to-SQL: A Study in Zero-shot, Single-domain, and Cross-domain Settings](https://arxiv.org/abs/2305.11853)
+This prompt is more complicated that the one we created to recover the name of the tables. We are going to follow the instructions of a paper from teh Ohio University: [How to Prompt LLMs for Text-to-SQL: A Study in Zero-shot, Single-domain, and Cross-domain Settings](https://arxiv.org/abs/2305.11853)
 In the case of our example we must create a prompt with information of two Databases. 
 
 This prompt should contain: 
