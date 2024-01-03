@@ -1,22 +1,23 @@
 # Large Language Models Course: Learn by Doing LLM Projects.
 **This practical free hands on course about Large Language models and their applicacions is 👷🏼still in development👷🏼. I will be posting the different lessons as I complete them.**
 
-The course provides a hands-on experience using models from OpenAI and the Hugging Face library. We are going to see and use a lot of tools and practice with small projects that will grow as we can apply the new knowledge. 
+The course provides a hands-on experience using models from OpenAI and the Hugging Face library. We are going to see and use a lot of tools and practice with small projects that will grow as we can apply the new knowledge adquired. 
 
 <h1> The course is divided into three major sections:</h1>
 
 <h2>1- Techniques and Libraries:</h2> 
-In this section, we will explore different techniques through small examples that will enable us to build projects in the following section. We will learn how to use the most common libraries in the world of Large Language Models, always with a practical focus, while basing our approach on published papers.
+In this part, we will explore different techniques through small examples that will enable us to build bigger projects in the following section. We will learn how to use the most common libraries in the world of Large Language Models, always with a practical focus, while basing our approach on published papers.
 Some of the topics and technologies covered in this section include: Chatbots, Code Generation, OpenAI API, Hugging Face, Vector databases, LangChain, Fine Tuning, PEFT Fine Tuning, Soft Prompt tuning, LoRA, QLoRA, Evaluate Models, Knowdledge Distillation.
 
 <h2>2- Projects:</h2> 
-We will create projects, explaining design decisions. Each project may have more than one possible implementation, as often there is not just one good solution. In this section, we will also delve into LLMOps-related topics, although it is not the primary focus of the course.
+We will create projects, explaining design decisions. Each project may have more than one possible implementation, as often there is not just one perfect solution. In this section, we will also delve into LLMOps-related topics, although it is not the primary focus of the course.
 
-<h2>3- Enterprise Solutions:</h2> Large Language Models are not a standalone solution; in large corporate environments, they are just one piece of the puzzle. We will explore how to structure solutions capable of transforming organizations with thousands of employees, and how Large Language Models play a main role in these new solutions.
+<h2>3- Enterprise Solutions:</h2> Large Language Models are not a standalone solution. In large corporate environments, they are just one piece of the puzzle. We will explore how to structure solutions capable of transforming organizations with thousands of employees, and how Large Language Models play a main role in these new solutions.
 
 <h1>How to use the course.</h1>
-Under each section you can foun different chapters, each chapter is formed by different lessons. You have a link to the main file of the chapter. Jucst click in the tittle. 
-Each Lesson is conformed by notebooks and articles, tven though the notebooks contain sufficient information for understanding the code within them, the article provides more detailed explanations. My advice is to have the article open alongside the notebook and follow along. Many of the articles offer small tips on variations that you can introduce to the notebooks, and I recommend following them to enhance clarity of the concepts.
+Under each section you can found different chapters, that are formed by different lessons. The tittle of the lesson is a link to the lesson page, where you can found all the notebooks and articles of the lesson. 
+Each Lesson is conformed by notebooks and articles. The notebooks contain sufficient information for understanding the code within them, the article provides more detailed explanations about the code and the topic covered. 
+My advice is to have the article open alongside the notebook and follow along. Many of the articles offer small tips on variations that you can introduce to the notebooks. I recommend following them to enhance clarity of the concepts.
 
 Most of the notebooks are hosted on Colab, while a few are on Kaggle. Kaggle provides more memory in the free version compared to Colab, but I find that copying ansd sharing notebooks is simpler in Colab, and not everyone has a Kaggle account.
 
