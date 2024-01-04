@@ -91,5 +91,7 @@ A project of this magnitude necessitates a phased approach, allowing for pivots 
 My recommendation is start  with a proof of concept, utilizing a single model but trained using QLoRA for the three identified tasks: Client Embeddings, Product Embeddings, and Decision Making.
 
 By adopting this approach, we can have three models operational swiftly, with minimal resource requirements for both training and inference. For each of these three models, decisions should be made regarding the data we want/need to use for their training, or in this case, fine-tuning.
+__________________________
+Check the FinGPT Model, it can be a good option to use as our FMFD. https://arxiv.org/abs/2306.06031
 
 This solution has been inspired by this article [The Shaky Foundations of Foundation Models in Healthcare](https://hai.stanford.edu/news/shaky-foundations-foundation-models-healthcare) at Stanford University 
