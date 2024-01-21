@@ -1,6 +1,7 @@
-In this first section of the course, we will learn to work with the OpenAI API by creating two small projects. We'll delve into OpenAI's roles and how to provide the necessary instructions to the model through the prompt to make it behave as we desire.
+In this first section of the course, **you will learn to work with the OpenAI API** by creating two small projects. You'll delve into OpenAI's roles and how to provide the necessary instructions to the model through the prompt to make it behave as desired.
 
-The first project is a restaurant chatbot where the model will take customer orders. Building upon this project, we will construct an SQL statement generator. Here, we'll attempt to create a secure prompt that only accepts SQL creation commands and nothing else.
+The first project is a restaurant chatbot where the model will take customer orders. Building upon this project, we will construct an SQL statement generator. Here, you'll attempt to create a secure prompt that only accepts SQL creation commands and nothing else.
+
 ### Create Your First Chatbot Using GPT 3.5, OpenAI, Python and Panel.
 | Description | Article | Notebook |
 | --- | ---| --- |
