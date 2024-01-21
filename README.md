@@ -34,17 +34,17 @@ In this first section of the course, we will learn to work with the OpenAI API b
 
 The first project is a restaurant chatbot where the model will take customer orders. Building upon this project, we will construct an SQL statement generator. Here, we'll attempt to create a secure prompt that only accepts SQL creation commands and nothing else.
 
-### Create Your First Chatbot Using GPT 3.5, OpenAI, Python and Panel.</h3>|
+### Create Your First Chatbot Using GPT 3.5, OpenAI, Python and Panel.
 We will be utilizing OpenAI GPT-3.5 and Panel to develop a straightforward Chatbot tailored for a fast food restaurant. During the course, we will explore the fundamentals of prompt engineering, including understanding the various OpenAI roles, manipulating temperature settings, and how to avoid Prompt Injections. 
 | [Article](https://medium.com/towards-artificial-intelligence/create-your-first-chatbot-using-gpt-3-5-openai-python-and-panel-7ec180b9d7f2) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/Vertical%20Chat.ipynb) |
 | --- | --- |
 
-### How to Create a Natural Language to SQL Translator Using OpenAI API.</h3> 
+### How to Create a Natural Language to SQL Translator Using OpenAI API.
 Following the same framework utilized in the previous article to create the ChatBot, we made a few modifications to develop a Natural Language to SQL translator. In this case, the Model needs to be provided with the table structures, and adjustments were made to the prompt to ensure smooth functionality and avoid any potential malfunctions. With these modifications in place, the translator is capable of converting natural language queries into SQL queries.
 | [Article](https://pub.towardsai.net/how-to-create-a-natural-language-to-sql-translator-using-openai-api-e1b1f72ac35a) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/nl2sql.ipynb)
 | --- | --- |
 
-### Brief Introduction to Prompt Engineering with OpenAI.</h3> 
+### Brief Introduction to Prompt Engineering with OpenAI.
 We will explore prompt engineering techniques to improve the results we obtain from Models. Like how to format the answer and obtain a structured response using Few Shot Samples. 
 | WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/Prompt_Engineering_OpenAI.ipynb)
 | --- | --- |
@@ -54,8 +54,8 @@ A brief introduction to Vector Databases, a technology that will accompany us in
 
 ### Influencing Language Models with Personalized Information using a Vector Database. 
 If there's one aspect gaining importance in the world of large language models, it's exploring how to leverage proprietary information with them. In this lesson, we explore a possible solution that involves storing information in a vector database, ChromaDB in our case, and using it to create enriched prompts.
-* Article: https://pub.towardsai.net/harness-the-power-of-vector-databases-influencing-language-models-with-personalized-information-ab2f995f09ba?sk=ea2c5286fbff8430e5128b0c3588dbab
-* Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/2-Vector%20Databases%20with%20LLMs/how-to-use-a-embedding-database-with-a-llm-from-hf.ipynb
+|[Article](https://pub.towardsai.net/harness-the-power-of-vector-databases-influencing-language-models-with-personalized-information-ab2f995f09ba?sk=ea2c5286fbff8430e5128b0c3588dbab) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/2-Vector%20Databases%20with%20LLMs/how-to-use-a-embedding-database-with-a-llm-from-hf.ipynb) |
+| --- | --- |
 
 ## [LangChain.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/3-LangChain)
 LangChain has been one of the libraries in the universe of large language models that has contributed the most to this revolution. 
@@ -63,8 +63,8 @@ It allows us to chain calls to Models and other systems, allowing us to build ap
 
 ### Retrieval Augmented Generation (RAG). Use the Data from your DataFrames with LLMs.
 In this lesson, we used LangChain to enhance the notebook from the previous lesson, where we used data from two datasets to create an enriched prompt. This time, with the help of LangChain, we built a pipeline that is responsible for retrieving data from the vector database and passing it to the Language Model. The notebook is set up to work with two different datasets and two different models. One of the models is trained for Text Generation, while the other is trained for Text2Text Generation.
-* Article: https://medium.com/towards-artificial-intelligence/query-your-dataframes-with-powerful-large-language-models-using-langchain-abe25782def5
-* Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/ask-your-documents-with-langchain-vectordb-hf.ipynb
+| [Article](https://medium.com/towards-artificial-intelligence/query-your-dataframes-with-powerful-large-language-models-using-langchain-abe25782def5) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/ask-your-documents-with-langchain-vectordb-hf.ipynb) |
+| --- | --- |
 
 ### Create a Moderation system using LangChain. 
 We will create a comment response system using a two-model pipeline built with LangChain. In this setup, the second model will be responsible for moderating the responses generated by the first model.
@@ -75,13 +75,11 @@ This approach can reduce the risk of undesired responses generated by the first 
 
 
 I will create separate notebooks for this task. One will involve models from OpenAI, and the others will utilize open-source models provided by Hugging Face. The results obtained in the three notebooks are very different. The system works much better with the OpenAI, and LLAMA2 models. 
-* OpenAI article: https://pub.towardsai.net/create-a-self-moderated-commentary-system-with-langchain-and-openai-406a51ce0c8d?sk=b4903b827e44642f7f7c311cebaef57f
-* OpenAI notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/LangChain_OpenAI_Moderation_System.ipynb
-  
-* Hugging Face Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/HF_gpt_j_6b_Moderation_System.ipynb
-
-* Llama2-7B Article: https://levelup.gitconnected.com/create-a-self-moderated-comment-system-with-llama-2-and-langchain-656f482a48be?sk=701ead7afb80e015ea4345943a1aeb1d
-* Llama2-7B Notebook: https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/HF_LLAMA2_LangChain_Moderation_System.ipynb
+| Article | Notebook |
+| --- | --- |
+|[OpenAI article](https://pub.towardsai.net/create-a-self-moderated-commentary-system-with-langchain-and-openai-406a51ce0c8d?sk=b4903b827e44642f7f7c311cebaef57f) | [OpenAI notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/LangChain_OpenAI_Moderation_System.ipynb) |
+|[GPT-J Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/HF_gpt_j_6b_Moderation_System.ipynb) | No Article |
+|[Llama2-7B Article](https://levelup.gitconnected.com/create-a-self-moderated-comment-system-with-llama-2-and-langchain-656f482a48be?sk=701ead7afb80e015ea4345943a1aeb1d) | [Llama2-7B Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/HF_LLAMA2_LangChain_Moderation_System.ipynb) |
 
 ### Create a Data Analyst Assistant using a LLM Agent. 
 Agents are one of the most powerful tools in the world of Large Language Models. The agent is capable of interpreting the user's request and using the tools and libraries at its disposal until it achieves the expected result.
