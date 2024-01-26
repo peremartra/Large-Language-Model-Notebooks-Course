@@ -167,11 +167,13 @@ Give a Star ⭐️ to the repository. It helps me a lot, and ecourages me to con
 
 _____________
 # Papers used in the Course: 
-[The Power of Scale for Parameter-Efficient Prompt Tuning](https://doi.org/10.48550/arXiv.2104.08691). Fine Tuning & Optimizacion Lesson. Prompt Tuning Sample. 
+[ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629). LangChain & Agents Section. Medical Assistant Sample.   
 
-[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685). Fine Tuning & Optimizacion Lesson. LoRA Fine-Tuning Sample. 
+[The Power of Scale for Parameter-Efficient Prompt Tuning](https://doi.org/10.48550/arXiv.2104.08691). Fine Tuning & Optimizacion Section. Prompt Tuning Sample. 
 
-[QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314). Fine Tuning & Optimizacion Lesson. QLoRA Fine-Tuning Sample.
+[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685). Fine Tuning & Optimizacion Section. LoRA Fine-Tuning Sample. 
+
+[QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314). Fine Tuning & Optimizacion Section. QLoRA Fine-Tuning Sample.
 
 [How to Prompt LLMs for Text-to-SQL: A Study in Zero-shot, Single-domain, and Cross-domain Settings](https://arxiv.org/abs/2305.11853). Project. Natural Language to SQL. 
 
