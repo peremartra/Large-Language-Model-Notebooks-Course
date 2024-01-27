@@ -34,7 +34,7 @@ In this example, two technologies seen previously are combined: agents and vecto
 In other words, a RAG system is created to assist a Medical ChatBot.
 
 **Attention!!! Use it only as an example. Nobody should take the boot's recommendations as those of a real doctor. I disclaim all responsibility for the use that may be given to the ChatBot. I have built it only as an example of different technologies.**
-| Article WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/langchain_retrieval_agent.ipynb.)
+| Article WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/langchain_retrieval_agent.ipynb)
 | ------ | ------ |
 
   
