@@ -1,14 +1,14 @@
 # Large Language Models Course: Learn by Doing LLM Projects.
-**This practical free hands on course about Large Language models and their applicacions is 👷🏼still in development👷🏼. I will be posting the different lessons as I complete them.**
+**This practical free hands on course about Large Language models and their applications is 👷🏼still in development👷🏼. I will be posting the different lessons as I complete them.**
 
-The course provides a hands-on experience using models from OpenAI and the Hugging Face library. We are going to see and use a lot of tools and practice with small projects that will grow as we can apply the new knowledge adquired. 
+The course provides a hands-on experience using models from OpenAI and the Hugging Face library. We are going to see and use a lot of tools and practice with small projects that will grow as we can apply the new knowledge acquired. 
 
 <h1> The course is divided into three major sections:</h1>
 
 <h2>1- Techniques and Libraries:</h2> 
 In this part, we will explore different techniques through small examples that will enable us to build bigger projects in the following section. We will learn how to use the most common libraries in the world of Large Language Models, always with a practical focus, while basing our approach on published papers.
 
-Some of the topics and technologies covered in this section include: Chatbots, Code Generation, OpenAI API, Hugging Face, Vector databases, LangChain, Fine Tuning, PEFT Fine Tuning, Soft Prompt tuning, LoRA, QLoRA, Evaluate Models, Knowdledge Distillation.
+Some of the topics and technologies covered in this section include: Chatbots, Code Generation, OpenAI API, Hugging Face, Vector databases, LangChain, Fine Tuning, PEFT Fine Tuning, Soft Prompt tuning, LoRA, QLoRA, Evaluate Models, Knowledge Distillation.
 
 <h2>2- Projects:</h2> 
 We will create projects, explaining design decisions. Each project may have more than one possible implementation, as often there is not just one perfect solution. In this section, we will also delve into LLMOps-related topics, although it is not the primary focus of the course.
@@ -16,13 +16,13 @@ We will create projects, explaining design decisions. Each project may have more
 <h2>3- Enterprise Solutions:</h2> Large Language Models are not a standalone solution. In large corporate environments, they are just one piece of the puzzle. We will explore how to structure solutions capable of transforming organizations with thousands of employees, and how Large Language Models play a main role in these new solutions.
 
 <h1>How to use the course.</h1>
-Under each section you can found different chapters, that are formed by different lessons. The tittle of the lesson is a link to the lesson page, where you can found all the notebooks and articles of the lesson. 
+Under each section you can find different chapters, that are formed by different lessons. The title of the lesson is a link to the lesson page, where you can found all the notebooks and articles of the lesson. 
 
 Each Lesson is conformed by notebooks and articles. The notebooks contain sufficient information for understanding the code within them, the article provides more detailed explanations about the code and the topic covered. 
 
 My advice is to have the article open alongside the notebook and follow along. Many of the articles offer small tips on variations that you can introduce to the notebooks. I recommend following them to enhance clarity of the concepts.
 
-Most of the notebooks are hosted on Colab, while a few are on Kaggle. Kaggle provides more memory in the free version compared to Colab, but I find that copying ansd sharing notebooks is simpler in Colab, and not everyone has a Kaggle account.
+Most of the notebooks are hosted on Colab, while a few are on Kaggle. Kaggle provides more memory in the free version compared to Colab, but I find that copying and sharing notebooks is simpler in Colab, and not everyone has a Kaggle account.
 
 Some of the notebooks require more memory than what the free version of Colab provides. As we are working with large language models, this is a common situation that will recur if you continue working with them. You can run the notebooks in your own environment or opt for the Pro version of Colab.
 _____________
@@ -89,7 +89,7 @@ With LangChain Agents, we are going to create in just a few lines one of the sim
 | [Article](https://pub.towardsai.net/create-your-own-data-analyst-assistant-with-langchain-agents-722f1cdcdd7e) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/LangChain_Agent_create_Data_Scientist_Assistant.ipynb) |
 | --- | --- |
 
-### Create a Mecdical ChatBot with LangChain and ChromaDB. 
+### Create a Medical ChatBot with LangChain and ChromaDB. 
 In this example, two technologies seen previously are combined: agents and vector databases. Medical information is stored in ChromaDB, and a LangChain Agent is created, which will fetch it only when necessary to create an enriched prompt that will be sent to the model to answer the user's question.
 
 In other words, a RAG system is created to assist a Medical ChatBot.
@@ -128,7 +128,7 @@ After a brief explanation of how the fine-tuning technique LoRA works, we will f
 | --- | --- |
 
 ### Fine-Tuning a 7B Model in a single 16GB GPU using QLoRA.
-We are going to see a brief introduction to quantization, used to reduce the size of big Large Language Models. With quantization you can load big models reducing the memory resources needed. It also applies to the fine-tunig process, you can fine-tune the model in a single GPU without consuming all the resources. 
+We are going to see a brief introduction to quantization, used to reduce the size of big Large Language Models. With quantization, you can load big models reducing the memory resources needed. It also applies to the fine-tuning process, you can fine-tune the model in a single GPU without consuming all the resources. 
 After the brief explanation we see an example about how is possible to fine-tune a Bloom 7B Model ina a t4 16GB GPU on Google Colab. 
 | [Article](https://medium.com/towards-artificial-intelligence/qlora-training-a-large-language-model-on-a-16gb-gpu-00ea965667c1) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/5-Fine%20Tuning/QLoRA_Tuning_PEFT.ipynb) |
 | --- | --- |
@@ -147,13 +147,13 @@ In this straightforward initial project, we are going to develop a SQL generator
 _____________
 <h1>🚀3- Architecting Enterprise Solutions.</h1>
 
-## [Architecting a NL2SQL Solution for inmense Enterprise Databases.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/E1-NL2SQL%20for%20big%20Databases).
+## [Architecting a NL2SQL Solution for immense Enterprise Databases](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/E1-NL2SQL%20for%20big%20Databases).
 In this initial solution, we design an architecture for an NL2SQL system capable of operating on a large database. The system is intended to be used with two or three different models. In fact, we use three models in the example. 
 
 It's an architecture that enables a fast project kickoff, providing service for only a few tables in the database, allowing us to add more tables at our pace.
 
 ## [Decoding Risk: Transforming Banks with Customer Embeddings.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/E2-Transforming%20Banks%20With%20Embeddings)
-In this solution, we explore the transformative power of embeddings and large language models (LLMs) in customer risk assessment and product recommendation in the financial industry. We'll be altering the format in which we store customer information, and consequently, we'll also be changing how this information travels within the systems, achieving important advantatges. 
+In this solution, we explore the transformative power of embeddings and large language models (LLMs) in customer risk assessment and product recommendation in the financial industry. We'll be altering the format in which we store customer information, and consequently, we'll also be changing how this information travels within the systems, achieving important advantages. 
 
 _____________
 ### Contributing to the course: 
@@ -163,17 +163,17 @@ If you'd like to make a contribution or suggest a topic, please don't hesitate t
 
 Don't be shy, share the course on your social networks with your friends. Connect with me on [LinkedIn](https://www.linkedin.com/in/pere-martra/) or [Twitter](https://twitter.com/PereMartra) and feel free to share anything you'd like or ask any questions you may have.
 
-Give a Star ⭐️ to the repository. It helps me a lot, and ecourages me to continue adding lessons. It's a nice way to support free Open Source courses like this one. 
+Give a Star ⭐️ to the repository. It helps me a lot, and encourages me to continue adding lessons. It's a nice way to support free Open Source courses like this one. 
 
 _____________
 # Papers used in the Course: 
 [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629). LangChain & Agents Section. Medical Assistant Sample.   
 
-[The Power of Scale for Parameter-Efficient Prompt Tuning](https://doi.org/10.48550/arXiv.2104.08691). Fine Tuning & Optimizacion Section. Prompt Tuning Sample. 
+[The Power of Scale for Parameter-Efficient Prompt Tuning](https://doi.org/10.48550/arXiv.2104.08691). Fine Tuning & Optimization Section. Prompt Tuning Sample. 
 
-[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685). Fine Tuning & Optimizacion Section. LoRA Fine-Tuning Sample. 
+[LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685). Fine Tuning & Optimization Section. LoRA Fine-Tuning Sample. 
 
-[QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314). Fine Tuning & Optimizacion Section. QLoRA Fine-Tuning Sample.
+[QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314). Fine Tuning & Optimization Section. QLoRA Fine-Tuning Sample.
 
 [How to Prompt LLMs for Text-to-SQL: A Study in Zero-shot, Single-domain, and Cross-domain Settings](https://arxiv.org/abs/2305.11853). Project. Natural Language to SQL. 
 
