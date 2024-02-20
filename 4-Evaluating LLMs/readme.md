@@ -19,6 +19,6 @@ In this initial example, you can observe how to use LangSmith to monitor the tra
 
 ### Evaluating the quality of summaries using Embedding distance with LangSmith. 
 Previously in the notebook, Rouge Metrics: Evaluating Summaries, we learned how to use ROUGE to evaluate which summary best approximated the one created by a human. This time, we will use embedding distance and LangSmith to verify which model produces summaries more similar to the reference ones.
-| Article WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/LangSmithSumarizations.ipynb) |
+| [Article](https://medium.com/towards-artificial-intelligence/evaluating-llm-summaries-using-embedding-distance-with-langsmith-5fb46fdae2a5?sk=24eb18ce187d28547cebd6fd3dd1ddad) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/LangSmithSumarizations.ipynb) |
 | ------ | ------ |
 
