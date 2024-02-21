@@ -112,9 +112,14 @@ We are going to use two T5 models, one of them being the t5-Base model and the o
 | [Article](https://medium.com/towards-artificial-intelligence/rouge-metrics-evaluating-summaries-in-large-language-models-d200ee7ca0e6) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/rouge-evaluation-untrained-vs-trained-llm.ipynb) |
 | --- | --- |
 
-### Monitoring, Testing and Evaluating LLMs with LangSmith. 
+### Monitor an Agent using LangSmith. 
 In this initial example, you can observe how to use LangSmith to monitor the traffic between the various components that make up the Agent. The agent is a RAG system that utilizes a vectorial database to construct an enriched prompt and pass it to the model. LangSmith captures both the use of the Agent's tools and the decisions made by the model, providing information at all times about the sent/received data, consumed tokens, the duration of the query, and all of this in a truly user-friendly environment.
 | Article WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/langsmith_Medical_Assistant_Agent.ipynb) |
+| ------ | ------ |
+
+### Evaluating the quality of summaries using Embedding distance with LangSmith. 
+Previously in the notebook, Rouge Metrics: Evaluating Summaries, we learned how to use ROUGE to evaluate which summary best approximated the one created by a human. This time, we will use embedding distance and LangSmith to verify which model produces summaries more similar to the reference ones.
+| [Article](https://medium.com/towards-artificial-intelligence/evaluating-llm-summaries-using-embedding-distance-with-langsmith-5fb46fdae2a5?sk=24eb18ce187d28547cebd6fd3dd1ddad) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/LangSmithSumarizations.ipynb) |
 | ------ | ------ |
 
 ## [Fine Tuning & Optimization.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/5-Fine%20Tuning) 
