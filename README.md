@@ -57,6 +57,13 @@ If there's one aspect gaining importance in the world of large language models, 
 |[Article](https://pub.towardsai.net/harness-the-power-of-vector-databases-influencing-language-models-with-personalized-information-ab2f995f09ba?sk=ea2c5286fbff8430e5128b0c3588dbab) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/2-Vector%20Databases%20with%20LLMs/how-to-use-a-embedding-database-with-a-llm-from-hf.ipynb) |
 | --- | --- |
 
+### Semantic Cache for RAG systems 
+We enhanced the RAG system by introducing a semantic cache layer capable of determining if a similar question has been asked before. If affirmative, it retrieves information from a cache system created with Faiss instead of accessing the Vector Database. 
+| Article | Notebook |
+| --- | ---|
+| WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/2-Vector%20Databases%20with%20LLMs/semantic_cache_chroma_vector_database.ipynb) |
+
+
 ## [LangChain.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/3-LangChain)
 LangChain has been one of the libraries in the universe of large language models that has contributed the most to this revolution. 
 It allows us to chain calls to Models and other systems, allowing us to build applications based on large language models. In the course, we will use it several times, creating increasingly complex projects.
