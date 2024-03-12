@@ -59,6 +59,9 @@ If there's one aspect gaining importance in the world of large language models, 
 
 ### Semantic Cache for RAG systems 
 We enhanced the RAG system by introducing a semantic cache layer capable of determining if a similar question has been asked before. If affirmative, it retrieves information from a cache system created with Faiss instead of accessing the Vector Database. 
+
+The inspiration and base code of the semantic cache present in this notebook exist thanks to the course: https://maven.com/boring-bot/advanced-llm/1/home from Hamza Farooq.
+
 | Article | Notebook |
 | --- | ---|
 | WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/2-Vector%20Databases%20with%20LLMs/semantic_cache_chroma_vector_database.ipynb) |
