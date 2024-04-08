@@ -132,6 +132,11 @@ Previously in the notebook, Rouge Metrics: Evaluating Summaries, we learned how 
 | [Article](https://medium.com/towards-artificial-intelligence/evaluating-llm-summaries-using-embedding-distance-with-langsmith-5fb46fdae2a5?sk=24eb18ce187d28547cebd6fd3dd1ddad) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/LangSmithSumarizations.ipynb) |
 | ------ | ------ |
 
+### Evaluating a RAG solution using Giskard. 
+We take the agent that functions as a medical assistant and incorporate Giskard to evaluate if its responses are correct. In this way, not only the model's response is evaluated, but also the information retrieval in the vector database. Giskard is a solution that allows evaluating a complete RAG solution.
+| Article WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/LangSmithSumarizations.ipynb)
+| ------ | ------ |
+
 ## [Fine Tuning & Optimization.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/5-Fine%20Tuning) 
 In the FineTuning & Optimization section, we will explore different techniques such as Prompt Fine Tuning or LoRA, and we will use the Hugging Face PEFT library to efficiently fine-tune Large Language Models. We will explore techniques like quantization to reduce the weight of the Models. 
 
