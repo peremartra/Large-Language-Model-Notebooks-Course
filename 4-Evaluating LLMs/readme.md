@@ -1,5 +1,8 @@
 The metrics used to measure the performance of Large Language Models are quite different from the ones we've been using in more traditional models. We're shifting away from metrics like Accuracy, F1 score, or recall, and moving towards metrics like BLEU, ROUGE, or METEOR. 
 
+However, the evaluation of applications with Large Language Models goes far beyond metrics. That's why we will analyze other techniques and tools, such as LangSmith or evaluation using other language models.
+
+## Metrics Based in n-Grams.
 These metrics are tailored to the specific task assigned to the language model. 
 
 In this section, we'll explore examples of several of these metrics and how to use them to determine whether one model is superior to another for a given task. We'll delve into practical scenarios where these metrics help us make informed decisions about the performance of different models.
@@ -25,4 +28,14 @@ In this initial example, you can observe how to use LangSmith to monitor the tra
 Previously in the notebook, Rouge Metrics: Evaluating Summaries, we learned how to use ROUGE to evaluate which summary best approximated the one created by a human. This time, we will use embedding distance and LangSmith to verify which model produces summaries more similar to the reference ones.
 | [Article](https://medium.com/towards-artificial-intelligence/evaluating-llm-summaries-using-embedding-distance-with-langsmith-5fb46fdae2a5?sk=24eb18ce187d28547cebd6fd3dd1ddad) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/LangSmithSumarizations.ipynb) |
 | ------ | ------ |
+
+## Evaluating Large Language Models with Large Language Models. 
+In the course, you have already seen several examples of evaluation or moderation using Large Language Models. Now, you will see how a library that is based on evaluating using Large Language Models: giskard.
+
+### Evaluating a RAG solution using Giskard. 
+We take the agent that functions as a medical assistant and incorporate Giskard to evaluate if its responses are correct. In this way, not only the model's response is evaluated, but also the information retrieval in the vector database. Giskard is a solution that allows evaluating a complete RAG solution.
+| Article WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/LangSmithSumarizations.ipynb)
+| ------ | ------ |
+
+
 
