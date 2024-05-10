@@ -3,7 +3,7 @@ In this straightforward initial project, we are going to develop a SQL generator
 <img width="443" alt="image" src="https://github.com/peremartra/Large-Language-Model-Notebooks-Course/assets/7319142/cce799f1-b6b9-4020-bf60-4842436025d1">
 
 ## Prompt Creation
-We will create two NL2SQL prompts that adhere to the best practices published in the paper from the University of Ohio (see below). Adapting them to the specific needs of OpenAI and SQLCoder Models. First we will create trhe OpeAInPrompt,  then continue adapting the prompt created to SQLCoder, an open-source model from Hugging Face trained from the super-efficient Mistral 7B.
+We will create two NL2SQL prompts that adhere to the best practices published in the paper from the University of Ohio (see below). Adapting them to the specific needs of OpenAI and SQLCoder Models. First we will create trhe OpenAI Prompt, then continue adapting the prompt created to SQLCoder, an open-source model trained by Defog from a super efficient Code Llama 7B Model, available on from Hugging Face.
 
 Although both prompts are based on the same paper, there are slight differences in the creation process. 
 
