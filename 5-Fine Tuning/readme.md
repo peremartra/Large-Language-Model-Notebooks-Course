@@ -12,7 +12,7 @@ Prompt tuning is an additive technique, and the weights of the pre-trained model
 
 ### Fine-Tuning with LoRA using PEFT from Hugging Face. 
 After a brief explanation of how the fine-tuning technique LoRA works, we will fine-tune a model from the Bloom family to teach it to construct prompts that can be used to instruct large language models.
-| [Article](https://medium.com/towards-artificial-intelligence/fine-tuning-models-using-prompt-tuning-with-hugging-faces-peft-library-998ae361ee27) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/5-Fine%20Tuning/LoRA_Tuning_PEFT.ipynb) |
+| [Article](https://medium.com/gitconnected/efficient-fine-tuning-with-lora-optimal-training-for-large-language-models-266b63c973ca) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/5-Fine%20Tuning/LoRA_Tuning_PEFT.ipynb) |
 | --- | --- |
 
 ### Fine-Tuning a 7B Model in a single 16GB GPU using QLoRA.
