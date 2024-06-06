@@ -161,13 +161,19 @@ After the brief explanation we see an example about how is possible to fine-tune
 _____________
 <h1>🚀2- Projects.</h1>
 
-## [Natural Language to SQL](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/P1-NL2SQL).
+## [Natural Language to SQL.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/P1-NL2SQL).
 In this straightforward initial project, we are going to develop a SQL generator from natural language. We'll begin by creating the prompt to implement two solutions: one using OpenAI models running on Azure, and the other with an open-source model from Hugging Face.
 | Article | Notebook |
 | --- | --- |
 | [Create a NL2SQL prompt for OpenAI](https://medium.com/towards-artificial-intelligence/create-a-superprompt-for-natural-language-to-sql-conversion-for-openai-9d19f0efe8f4) | [Prompt creation for OpenAI](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/nl2sql_prompt_OpenAI.ipynb) |
 | WIP | [Prompt creation for defog/SQLCoder](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/nl2sql_prompt_SQLCoder.ipynb) |
 | [Inference Azure Configuration.](https://pub.towardsai.net/how-to-set-up-an-nl2sql-system-with-azure-openai-studio-2fcfc7b57301) | [Using Azure Inference Point](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P1-NL2SQL/NL2SQL_OpenAI_Azure.ipynb) |
+
+## [Create and publish an LLM.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P2-MHF/readme.md) 
+In this small project we will create a new model alingning a microsoft-phi-3-model with DPO and then publish it to Hugging Face. 
+| Article | Notebook |
+| --- | --- |
+| WIP | [Aligning with DPO a phi3-3 model.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/P2-MHF/Aligning_DPO_phi3.ipynb)
 
 _____________
 <h1>🚀3- Architecting Enterprise Solutions.</h1>
