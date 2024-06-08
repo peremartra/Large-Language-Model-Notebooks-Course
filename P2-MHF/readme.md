@@ -18,7 +18,8 @@ The dataset to be used should have three columns:
 
 The dataset selected for this example is [argilla/distilabel-capybara-dpo-7k-binarized](https://huggingface.co/datasets/argilla/distilabel-capybara-dpo-7k-binarized)
 
-If you'd like to take a look at the model resulting from two hours of training on an A100 GPU with the Argila dataset, you can do so on its Hugging Face page. 
+If you'd like to take a look at the model resulting from two hours of training on an A100 GPU with the Argila dataset, you can do so on its Hugging Face page. https://huggingface.co/oopere/martra-phi-3-mini-dpo
+
 
 | Article | Notebook |
 | --- | --- |
