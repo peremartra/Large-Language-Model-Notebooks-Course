@@ -190,7 +190,7 @@ A simple function that receives a text with the request to the database and nume
 * order: A sentence indicating what do you want from the Database"
 * model: O-Indicates that you qwant the system to choose the best model. 1-SQLCoder. 2-GPT4.0.
 
-Why are we returning the model used in the SQL generation? Easy, just in case the SQL is incorrect and can't be executed you can try the same cal using the other Model. 
+Why are we returning the model used in the SQL generation? Easy, just in case the SQL is incorrect and can't be executed you can try the same call using the other Model. 
 
 # Conclusion. 
 This solution is just a recommendation aimed at addressing the issue of prompt size in SQL code generation for databases that consist of many tables.
