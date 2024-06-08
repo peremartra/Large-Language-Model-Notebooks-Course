@@ -1,4 +1,4 @@
-# Architecting a NL2SQL Solution for inmense Enterprise Databases.  
+# Architecting a NL2SQL Solution for immense Enterprise Databases.  
 Creating a Natural Language to SQL conversion system capable of operating on databases with a complex structure composed of hundreds of tables with interconnections presents a significant challenge. 
 
 One of the primary issues with such a system is that the model needs to receive the database structure to target in each prompt. As the structure grows, so does the demand for the model to comprehend it, necessitating larger and larger models. These extensive models might be overkill for handling relatively simple queries involving only one or two tables.
