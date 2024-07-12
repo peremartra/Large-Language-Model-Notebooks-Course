@@ -1,4 +1,4 @@
-# Architecting a NL2SQL Solution for inmense Enterprise Databases.  
+# Architecting a NL2SQL Solution for immense Enterprise Databases.  
 Creating a Natural Language to SQL conversion system capable of operating on databases with a complex structure composed of hundreds of tables with interconnections presents a significant challenge. 
 
 One of the primary issues with such a system is that the model needs to receive the database structure to target in each prompt. As the structure grows, so does the demand for the model to comprehend it, necessitating larger and larger models. These extensive models might be overkill for handling relatively simple queries involving only one or two tables.
@@ -190,7 +190,7 @@ A simple function that receives a text with the request to the database and nume
 * order: A sentence indicating what do you want from the Database"
 * model: O-Indicates that you qwant the system to choose the best model. 1-SQLCoder. 2-GPT4.0.
 
-Why are we returning the model used in the SQL generation? Easy, just in case the SQL is incorrect and can't be executed you can try the same cal using the other Model. 
+Why are we returning the model used in the SQL generation? Easy, just in case the SQL is incorrect and can't be executed you can try the same call using the other Model. 
 
 # Conclusion. 
 This solution is just a recommendation aimed at addressing the issue of prompt size in SQL code generation for databases that consist of many tables.
