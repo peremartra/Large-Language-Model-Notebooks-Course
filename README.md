@@ -1,5 +1,5 @@
 # Large Language Models Course: Learn by Doing LLM Projects.
-**This practical free hands on course about Large Language models and their applications is 👷🏼still in development👷🏼. I will be posting the different lessons as I complete them.**
+**This practical free hands on course about Large Language models and their applications is 👷🏼in permanent development👷🏼. I will be posting the different lessons and samples as I complete them.**
 
 The course provides a hands-on experience using models from OpenAI and the Hugging Face library. We are going to see and use a lot of tools and practice with small projects that will grow as we can apply the new knowledge acquired. 
 
