@@ -18,8 +18,8 @@ I will create separate notebooks for this task. One will involve models from Ope
 | Article | Notebook |
 | --- | --- |
 | [OpenAI article](https://pub.towardsai.net/create-a-self-moderated-commentary-system-with-langchain-and-openai-406a51ce0c8d?sk=b4903b827e44642f7f7c311cebaef57f) | [OpenAI notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/3_2_OpenAI_Moderation_Chat.ipynb) |
-| [Llama2-7B Article](https://levelup.gitconnected.com/create-a-self-moderated-comment-system-with-llama-2-and-langchain-656f482a48be?sk=701ead7afb80e015ea4345943a1aeb1d) | [Llama2-7B Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/3_2_GPT_Moderation_System.ipynb) |
-| No Article | [GPT-J Notebook]() |
+| [Llama2-7B Article](https://levelup.gitconnected.com/create-a-self-moderated-comment-system-with-llama-2-and-langchain-656f482a48be?sk=701ead7afb80e015ea4345943a1aeb1d) | [Llama2-7B Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/3_2_LLAMA2_Moderation_Chat.ipynb) |
+| No Article | [GPT-J Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/3_2_GPT_Moderation_System.ipynb) |
 
 ### Create a Data Analyst Assistant using a LLM Agent. 
 Agents are one of the most powerful tools in the world of Large Language Models. The agent is capable of interpreting the user's request and using the tools and libraries at its disposal until it achieves the expected result.
