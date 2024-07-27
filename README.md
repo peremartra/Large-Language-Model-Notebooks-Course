@@ -116,7 +116,7 @@ In this section, we'll explore examples of several of these metrics and how to u
 
 ### Evaluating translations with BLEU. 
 Bleu is one of the first Metrics stablished to evaluate the quality of translations. In the notebook we compare the quality of a translation made by google with other from an Open Source Model from Hugging Face.
-| Article WIP | Notebook(https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/4_1_bleu_evaluation.ipynb) |
+| Article WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/4_1_bleu_evaluation.ipynb) |
 | --- | --- |
 
 ### Evaluating Summarization with ROUGE. 
