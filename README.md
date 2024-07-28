@@ -128,12 +128,12 @@ We are going to use two T5 models, one of them being the t5-Base model and the o
 
 ### Monitor an Agent using LangSmith. 
 In this initial example, you can observe how to use LangSmith to monitor the traffic between the various components that make up the Agent. The agent is a RAG system that utilizes a vectorial database to construct an enriched prompt and pass it to the model. LangSmith captures both the use of the Agent's tools and the decisions made by the model, providing information at all times about the sent/received data, consumed tokens, the duration of the query, and all of this in a truly user-friendly environment.
-| Article WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/langsmith_Medical_Assistant_Agent.ipynb) |
+| Article WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/4_2_tracing_medical_agent.ipynb) |
 | ------ | ------ |
 
 ### Evaluating the quality of summaries using Embedding distance with LangSmith. 
 Previously in the notebook, Rouge Metrics: Evaluating Summaries, we learned how to use ROUGE to evaluate which summary best approximated the one created by a human. This time, we will use embedding distance and LangSmith to verify which model produces summaries more similar to the reference ones.
-| [Article](https://medium.com/towards-artificial-intelligence/evaluating-llm-summaries-using-embedding-distance-with-langsmith-5fb46fdae2a5?sk=24eb18ce187d28547cebd6fd3dd1ddad) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/LangSmithSumarizations.ipynb) |
+| [Article](https://medium.com/towards-artificial-intelligence/evaluating-llm-summaries-using-embedding-distance-with-langsmith-5fb46fdae2a5?sk=24eb18ce187d28547cebd6fd3dd1ddad) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/4_2_Evaluating_summaries_embeddings.ipynb) |
 | ------ | ------ |
 
 ### Evaluating a RAG solution using Giskard. 
@@ -148,7 +148,7 @@ In the FineTuning & Optimization section, we will explore different techniques s
 In this notebook, two models are trained using Prompt Tuning from the PEFT library. This technique not only allows us to train by modifying the weights of very few parameters but also enables us to have different specialized models loaded in memory that use the same foundational model.
 
 Prompt tuning is an additive technique, and the weights of the pre-trained model are not modified. The weights that we modify in this case are those of virtual tokens that we add to the prompt.
-| [Article](https://medium.com/towards-artificial-intelligence/fine-tuning-models-using-prompt-tuning-with-hugging-faces-peft-library-998ae361ee27) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/5-Fine%20Tuning/Prompt_Tuning_PEFT.ipynb) |
+| [Article](https://medium.com/towards-artificial-intelligence/fine-tuning-models-using-prompt-tuning-with-hugging-faces-peft-library-998ae361ee27) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/4_3_evaluating_rag_giskard.ipynb) |
 | --- | --- |
 
 ### Fine-Tuning with LoRA using PEFT from Hugging Face. 
