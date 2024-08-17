@@ -41,7 +41,7 @@ We will be utilizing OpenAI GPT-3.5 and Panel to develop a straightforward Chatb
 
 ### How to Create a Natural Language to SQL Translator Using OpenAI API.
 Following the same framework utilized in the previous article to create the ChatBot, we made a few modifications to develop a Natural Language to SQL translator. In this case, the Model needs to be provided with the table structures, and adjustments were made to the prompt to ensure smooth functionality and avoid any potential malfunctions. With these modifications in place, the translator is capable of converting natural language queries into SQL queries.
-| [Article](https://pub.towardsai.net/how-to-create-a-natural-language-to-sql-translator-using-openai-api-e1b1f72ac35a) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/1_2-Easy_NL2SQL.ipynb)
+| [Article](https://pub.towardsai.net/how-to-create-a-natural-language-to-sql-translator-using-openai-api-e1b1f72ac35a) / [Article Gradio](https://medium.com/towards-artificial-intelligence/first-nl2sql-chat-with-openai-and-gradio-b1de0d6541b4)| [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/1_2-Easy_NL2SQL.ipynb) / [Notebook Gradio](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/1_2-Easy_NL2SQL_Gradio.ipynb)
 | --- | --- |
 
 ### Brief Introduction to Prompt Engineering with OpenAI.
