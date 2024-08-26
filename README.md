@@ -202,6 +202,8 @@ Give a Star ⭐️ to the repository. It helps me a lot, and encourages me to co
 
 _____________
 # Papers used in the Course: 
+[Large Language Models Are State-of-the-Art Evaluators of Translation Quality](https://arxiv.org/abs/2302.14520). Evaluating LLMs with LLMs. 
+
 [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629). LangChain & Agents Section. Medical Assistant Sample.   
 
 [The Power of Scale for Parameter-Efficient Prompt Tuning](https://doi.org/10.48550/arXiv.2104.08691). Fine Tuning & Optimization Section. Prompt Tuning Sample. 
