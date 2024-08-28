@@ -15,4 +15,4 @@ The first project is a restaurant chatbot where the model will take customer ord
 ### Brief Introduction to Prompt Engineering with OpenAI. 
 | Description | Article | Notebook |
 | -------- | ---| --- |
-|We will explore prompt engineering techniques to improve the results we obtain from Models. Like how to format the answer and obtain a structured response using Few Shot Samples.| WIP | [notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/1_3-Intro_Prompt_Engineering.ipynb)
+|We will explore prompt engineering techniques to improve the results we obtain from Models. Like how to format the answer and obtain a structured response using Few Shot Samples.| [Article](https://medium.com/gitconnected/influencing-a-large-language-model-response-with-in-context-learning-b212f0eaa113) | [notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/1_3-Intro_Prompt_Engineering.ipynb)
