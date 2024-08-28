@@ -46,7 +46,7 @@ Following the same framework utilized in the previous article to create the Chat
 
 ### Brief Introduction to Prompt Engineering with OpenAI.
 We will explore prompt engineering techniques to improve the results we obtain from Models. Like how to format the answer and obtain a structured response using Few Shot Samples. 
-| WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/1_3-Intro_Prompt_Engineering.ipynb)
+| [Article](https://medium.com/gitconnected/influencing-a-large-language-model-response-with-in-context-learning-b212f0eaa113) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/1-Introduction%20to%20LLMs%20with%20OpenAI/1_3-Intro_Prompt_Engineering.ipynb)
 | --- | --- |
 
 ## [Vector Databases with LLMs.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/2-Vector%20Databases%20with%20LLMs) 
