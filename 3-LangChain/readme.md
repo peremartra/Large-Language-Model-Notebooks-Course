@@ -34,7 +34,7 @@ In this example, two technologies seen previously are combined: agents and vecto
 In other words, a RAG system is created to assist a Medical ChatBot.
 
 **Attention!!! Use it only as an example. Nobody should take the boot's recommendations as those of a real doctor. I disclaim all responsibility for the use that may be given to the ChatBot. I have built it only as an example of different technologies.**
-| Article WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/3_4_Medical_Assistant_Agent.ipynb)
+| [Article](https://medium.com/towards-artificial-intelligence/how-to-create-a-medical-agent-rag-system-effd0aaacc91?sk=e348bb9e1b949ecc48b4dfeb96381f5a) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/3_4_Medical_Assistant_Agent.ipynb) / [Gradio Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/3_4b_Medical_Assistant_Agent_Gradio.ipynb)
 | ------ | ------ |
 
   
