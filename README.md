@@ -1,4 +1,26 @@
 # Large Language Models Course: Learn by Doing LLM Projects.
+
+<table>
+  <tr>
+    <td  width="130">
+      <a href="https://amzn.to/4eanT1g">
+        <img src="https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/img/Large_Language_Models_Projects_Book.jpg" height="160" width="104">
+      </a>
+    </td>
+    <td>
+      <p>
+        This is the unofficial repository for the book Large Language Models: 
+        <a href="https://amzn.to/4eanT1g">Apply and Implement Strategies for Large Language Models</a> (Apress).
+        The book is based on the content of this repository, but the notebooks are being updated, and I am incorporating new examples and chapters.
+        If you are looking for the official repository for the book, with the original notebooks, you should visit the 
+        <a href="https://github.com/Apress/Large-Language-Models-Projects">Apress repository</a>, where you can find all the notebooks in their original format as they appear in the book.
+      </p>
+    </td>
+  </tr>
+</table>
+
+*Please note that the course on GitHub does not contain all the information that is in the book.*
+
 **This practical free hands on course about Large Language models and their applications is 👷🏼in permanent development👷🏼. I will be posting the different lessons and samples as I complete them.**
 
 The course provides a hands-on experience using models from OpenAI and the Hugging Face library. We are going to see and use a lot of tools and practice with small projects that will grow as we can apply the new knowledge acquired. 
