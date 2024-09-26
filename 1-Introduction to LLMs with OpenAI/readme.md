@@ -1,7 +1,26 @@
+<table>
+  <tr>
+    <td  width="130">
+      <a href="https://amzn.to/4eanT1g">
+        <img src="https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/img/Large_Language_Models_Projects_Book.jpg" height="160" width="104">
+      </a>
+    </td>
+    <td>
+      <p>
+        This is the unofficial repository for the book: 
+        <a href="https://amzn.to/4eanT1g"> <b>Large Language Models:</b> Apply and Implement Strategies for Large Language Models</a> (Apress).
+        The book is based on the content of this repository, but the notebooks are being updated, and I am incorporating new examples and chapters.
+        If you are looking for the official repository for the book, with the original notebooks, you should visit the 
+        <a href="https://github.com/Apress/Large-Language-Models-Projects">Apress repository</a>, where you can find all the notebooks in their original format as they appear in the book.
+      </p>
+    </td>
+  </tr>
+</table>
 In this first section of the course, **you will learn to work with the OpenAI API** by creating two small projects. You'll delve into OpenAI's roles and how to provide the necessary instructions to the model through the prompt to make it behave as desired.
 
 The first project is a restaurant chatbot where the model will take customer orders. Building upon this project, we will construct an SQL statement generator. Here, you'll attempt to create a secure prompt that only accepts SQL creation commands and nothing else.
 
+#Introduction to LLMs with OpenAI API. 
 ### Create Your First Chatbot Using GPT 3.5, OpenAI, Python and Panel.
 | Description | Article | Notebook |
 | -------- | ---| --- |
