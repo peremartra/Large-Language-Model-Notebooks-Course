@@ -21,7 +21,7 @@ We are going to use two T5 models, one of them being the t5-Base model and the o
 ## Monitoring, Testing and Evaluating LLMs with LangSmith. 
 ### Monitor an Agent using LangSmith. 
 In this initial example, you can observe how to use LangSmith to monitor the traffic between the various components that make up the Agent. The agent is a RAG system that utilizes a vectorial database to construct an enriched prompt and pass it to the model. LangSmith captures both the use of the Agent's tools and the decisions made by the model, providing information at all times about the sent/received data, consumed tokens, the duration of the query, and all of this in a truly user-friendly environment.
-| Article WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/4_2_tracing_medical_agent.ipynb) |
+| [Article](https://medium.com/towards-artificial-intelligence/tracing-a-llm-agent-with-langsmith-a81975634555) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/4_2_tracing_medical_agent.ipynb) |
 | ------ | ------ |
 
 ### Evaluating the quality of summaries using Embedding distance with LangSmith. 
