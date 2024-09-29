@@ -1,3 +1,22 @@
+<table>
+  <tr>
+    <td  width="130">
+      <a href="https://amzn.to/4eanT1g">
+        <img src="https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/img/Large_Language_Models_Projects_Book.jpg" height="160" width="104">
+      </a>
+    </td>
+    <td>
+      <p>
+        This is the unofficial repository for the book: 
+        <a href="https://amzn.to/4eanT1g"> <b>Large Language Models:</b> Apply and Implement Strategies for Large Language Models</a> (Apress).
+        The book is based on the content of this repository, but the notebooks are being updated, and I am incorporating new examples and chapters.
+        If you are looking for the official repository for the book, with the original notebooks, you should visit the 
+        <a href="https://github.com/Apress/Large-Language-Models-Projects">Apress repository</a>, where you can find all the notebooks in their original format as they appear in the book.
+      </p>
+    </td>
+  </tr>
+</table>
+
 A brief introduction to Vector Databases, a technology that will accompany us in many lessons throughout the course. We will work on an example of Retrieval Augmented Generation using information from various news datasets stored in ChromaDB.
 
 ### Influencing Language Models with Personalized Information using a Vector Database. 
