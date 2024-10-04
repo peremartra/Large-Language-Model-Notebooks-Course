@@ -13,7 +13,7 @@
         <a href="https://amzn.to/4eanT1g"> <b>Large Language Models:</b> Apply and Implement Strategies for Large Language Models</a> (Apress).
         The book is based on the content of this repository, but the notebooks are being updated, and I am incorporating new examples and chapters.
         If you are looking for the official repository for the book, with the original notebooks, you should visit the 
-        <a href="https://github.com/Apress/Large-Language-Models-Projects">Apress repository</a>, where you can find all the notebooks in their original format as they appear in the book.
+        <a href="https://github.com/Apress/Large-Language-Models-Projects">Apress repository</a>, where you can find all the notebooks in their original format as they appear in the book. Buy it at: [Amazon][Springer](https://link.springer.com/book/10.1007/979-8-8688-0515-8)
       </p>
     </td>
   </tr>
