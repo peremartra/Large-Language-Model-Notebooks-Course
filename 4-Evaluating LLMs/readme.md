@@ -53,7 +53,7 @@ In the course, you have already seen several examples of evaluation or moderatio
 
 ### Evaluating a RAG solution using Giskard. 
 We take the agent that functions as a medical assistant and incorporate Giskard to evaluate if its responses are correct. In this way, not only the model's response is evaluated, but also the information retrieval in the vector database. Giskard is a solution that allows evaluating a complete RAG solution.
-| Article WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/4_3_evaluating_rag_giskard.ipynb)
+| [Article](https://medium.com/towards-artificial-intelligence/evaluating-a-rag-solution-with-giskard-1bc138fa44af?sk=10811fe2953eb511fb1ffefda326f7a2) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/4_3_evaluating_rag_giskard.ipynb)
 | ------ | ------ |
 
 
