@@ -23,4 +23,17 @@ Pruning is a crucial optimization technique in machine learning, particularly fo
 
 One of the great advantages of pruning compared to other techniques like quantization is that when selecting parts of the model to remove, you can choose those that contribute less to the model’s output, depending on the intended use.
 
+## Structured Width Pruning: Eliminating Less Important Neurons from Feedforward Layers.
+In this type of pruning, the neurons that contribute least to the model's output are identified and removed. It is crucial to know or have access to the model's structure, as the pruning process is not applied to all layers. Depending on the need, specific layers are selected for pruning.
+
+In the first notebook, the pruning process will be applied to the feedforward layers of a distilGPT2 model. This means the model will have reduced weights in those specific layers. The neurons to prune are selected based on their importance scores, which we compute using the L1 norm of their weights. It is a simple aproach, for this first example, that can be used when you want to create a Pruned Model that mimics the Base model in all the areas. 
+
+By altering the model's structure, a new configuration file must be created to ensure it works correctly with the `transformers` library.
+
+| [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_1_pruning_structured_l1_diltilgpt2.ipynb)
+| --- |
+
+
+
+
 
