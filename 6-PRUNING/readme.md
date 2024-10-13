@@ -21,6 +21,6 @@
 
 Pruning is a crucial optimization technique in machine learning, particularly for large language models (LLMs). It involves reducing the size and complexity of a model by eliminating less important components—such as neurons, layers, or weights, while maintaining most of the model’s performance. Pruning helps to make models more efficient, reducing their computational and memory requirements, which is especially important when deploying models on resource-constrained environments like mobile devices or edge servers.
 
-Pruning does come with a trade-off: while the model becomes smaller and faster, there may be a slight reduction in accuracy. However, with careful pruning strategies, this accuracy loss can be minimal.
+One of the great advantages of pruning compared to other techniques like quantization is that when selecting parts of the model to remove, you can choose those that contribute less to the model’s output, depending on the intended use.
 
-Una de las grandes bentajas que tiene pruning frente a otras tecnicas como la quantización es que al escoger las partes del modelo a eliminar se puede escoger acollas que aportan menos a la salida del modelo dependiendo del uso que le queramos dar. 
+
