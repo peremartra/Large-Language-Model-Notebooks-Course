@@ -36,6 +36,14 @@ By altering the model's structure, a new configuration file must be created to e
 
 ## Prune a Llama3.2 model. 
 In this notebook, we attempt to replicate the pruning process used with the distilGPT2 model but applied to a Llama model. By not taking the model's characteristics into account, the pruning process results in a completely unusable model. This notebook serves as an exercise to understand how crucial it is to know the structure of the models that will undergo pruning.
+| [Notebook: Pruning a Llama3.2 model INCORRECT APROACH.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6_2_pruning_structured_llama3.2-1b_KO.ipynb) |
+| --- |
+
+
+
+
+
+
 
 
 
