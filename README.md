@@ -184,6 +184,29 @@ After the brief explanation we see an example about how is possible to fine-tune
 | [Article](https://medium.com/towards-artificial-intelligence/qlora-training-a-large-language-model-on-a-16gb-gpu-00ea965667c1) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/5-Fine%20Tuning/5_3_QLoRA_Tuning.ipynb) |
 | --- | --- |
 
+## [Pruning Techniques for Large Language Models](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/6-PRUNING)
+**This section is still under construction. The goal is to build a curriculum that will take us from the most simple pruning techniques to creating a model using the same techniques employed by leading companies in the field, such as Microsoft, Google, Nvidia, or OpenAI, to build their models.**
+
+### Prune a distilGPT2 model using l1 norm to determine less important neurons. 
+In the first notebook, the pruning process will be applied to the feedforward layers of a distilGPT2 model. This means the model will have reduced weights in those specific layers. The neurons to prune are selected based on their importance scores, which we compute using the L1 norm of their weights. It is a simple aproach, for this first example, that can be used when you want to create a Pruned Model that mimics the Base model in all the areas. 
+
+By altering the model's structure, a new configuration file must be created to ensure it works correctly with the `transformers` library.
+
+| [Notebook: Pruning a distilGPT2 model.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_1_pruning_structured_l1_diltilgpt2.ipynb) |
+| --- |
+
+### Prune a Llama3.2 model. 
+In this first notebook, we attempt to replicate the pruning process used with the distilGPT2 model but applied to a Llama model. By not taking the model's characteristics into account, the pruning process results in a completely unusable model. This notebook serves as an exercise to understand how crucial it is to know the structure of the models that will undergo pruning.
+| [Notebook: Pruning a Llama3.2 model INCORRECT APROACH.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6_2_pruning_structured_llama3.2-1b_KO.ipynb) |
+| --- |
+
+The second notebook addresses the issues encountered when applying the same pruning process to the Llama model as was used for distilGPT2.
+
+The correct approach is to treat the MLP layers of the model as pairs rather than individual layers and to calculate neuron importance by considering both layers together. Additionally, we switch to using the maximum absolute weight to decide which neurons remain in the pruned layers.
+
+| [Notebook: Pruning a Llama3.2 model CORRECT APROACH.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_3_pruning_structured_llama3.2-1b_OK.ipynb) |
+| --- |
+
 _____________
 <h1>🚀2- Projects.</h1>
 
@@ -223,8 +246,10 @@ Don't be shy, share the course on your social networks with your friends. Connec
 Give a Star ⭐️ to the repository. It helps me a lot, and encourages me to continue adding lessons. It's a nice way to support free Open Source courses like this one. 
 
 _____________
-# Papers used in the Course: 
-[Large Language Models Are State-of-the-Art Evaluators of Translation Quality](https://arxiv.org/abs/2302.14520). Evaluating LLMs with LLMs. 
+# References & Papers used in the Course: 
+Tom Kocmi, Christian Federmann, [Large Language Models Are State-of-the-Art Evaluators of Translation Quality](https://arxiv.org/abs/2302.14520). Evaluating LLMs with LLMs. 
+
+Pere Martra, [Introduction to Large Language Models with OpenAI](https://link.springer.com/chapter/10.1007/979-8-8688-0515-8_1)
 
 [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629). LangChain & Agents Section. Medical Assistant Sample.   
 
@@ -235,4 +260,6 @@ _____________
 [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314). Fine Tuning & Optimization Section. QLoRA Fine-Tuning Sample.
 
 [How to Prompt LLMs for Text-to-SQL: A Study in Zero-shot, Single-domain, and Cross-domain Settings](https://arxiv.org/abs/2305.11853). Project. Natural Language to SQL. 
+
+Saurav Muralidharan, Sharath Turuvekere Sreenivas, Raviraj Joshi, Marcin Chochowski, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro, Jan Kautz, Pavlo Molchanov, "Compact Language Models via Pruning and Knowledge Distillation," arXiv preprint arXiv:2407.14679, 2024. Available at: https://doi.org/10.48550/arXiv.2407.14679.
 
