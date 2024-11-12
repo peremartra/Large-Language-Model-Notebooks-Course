@@ -1,4 +1,4 @@
-**DISCLAIMER: The pruning section is a NEW SECTION NOT PRESENT in the first edition of the book**
+**disclaimer: The pruning section was created after the first edition of the book was published. They are not included in the book’s original content but are intended to supplement and expand on the topics covered.**
 
 <table>
   <tr>
