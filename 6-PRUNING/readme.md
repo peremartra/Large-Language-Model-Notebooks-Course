@@ -1,3 +1,5 @@
+**DISCLAIMER: The pruning section is a NEW SECTION NOT PRESENT in the first edition of the book**
+
 <table>
   <tr>
     <td  width="130">
