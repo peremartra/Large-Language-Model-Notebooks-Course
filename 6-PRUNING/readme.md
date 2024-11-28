@@ -48,8 +48,8 @@ The second notebook addresses the issues encountered when applying the same prun
 The correct approach is to treat the MLP layers of the model as pairs rather than individual layers and to calculate neuron importance by considering both layers together. Additionally, we switch to using the maximum absolute weight to decide which neurons remain in the pruned layers.
 
 With these two simple changes, which adapt the pruning process to the structure of Llama models, we achieve a smaller model that retains a significant portion of the original model's knowledge.
-| [Notebook: Pruning a Llama3.2 model CORRECT APROACH.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_3_pruning_structured_llama3.2-1b_OK.ipynb) |
-| --- |
+| [Pruning Llama3 Article](https://medium.com/towards-data-science/how-to-prune-llama-3-2-and-similar-large-language-models-cf18e9a2afb6?sk=af4c5e40e967437325050f019b3ae606) | [Notebook: Pruning a Llama3.2 model CORRECT APROACH.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_3_pruning_structured_llama3.2-1b_OK.ipynb) |
+| --- | --- | 
 
 ### References
 > Saurav Muralidharan, Sharath Turuvekere Sreenivas, Raviraj Joshi, Marcin Chochowski, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro, Jan Kautz, Pavlo Molchanov, "Compact Language Models via Pruning and Knowledge Distillation," arXiv preprint arXiv:2407.14679, 2024. Available at: [https://doi.org/10.48550/arXiv.2407.14679](https://doi.org/10.48550/arXiv.2407.14679).
