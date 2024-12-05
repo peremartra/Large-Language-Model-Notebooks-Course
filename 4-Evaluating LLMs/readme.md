@@ -56,5 +56,12 @@ We take the agent that functions as a medical assistant and incorporate Giskard 
 | [Article](https://medium.com/towards-artificial-intelligence/evaluating-a-rag-solution-with-giskard-1bc138fa44af?sk=10811fe2953eb511fb1ffefda326f7a2) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/4_3_evaluating_rag_giskard.ipynb)
 | ------ | ------ |
 
+## Standard rankings. 
+### Introduction to the lm-evaluation library from Eeuther.ai. 
+The lm-eval library by EleutherAI provides easy access to academic benchmarks that have become industry standards. It supports the evaluation of both Open Source models and APIs from providers like OpenAI, and even allows for the evaluation of adapters created using techniques such as LoRA.
+
+In this notebook, I will focus on a small but important feature of the library: evaluating models compatible with Hugging Face's Transformers library.
+| Article - WIP| [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/4_4_lm-evaluation-harness.ipynb)
+| ------ | ------ |
 
 
