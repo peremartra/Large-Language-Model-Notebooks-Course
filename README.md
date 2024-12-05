@@ -163,6 +163,14 @@ We take the agent that functions as a medical assistant and incorporate Giskard 
 | Article WIP | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/4_3_evaluating_rag_giskard.ipynb)
 | ------ | ------ |
 
+### Introduction to the lm-evaluation library from Eeuther.ai. 
+The lm-eval library by EleutherAI provides easy access to academic benchmarks that have become industry standards. It supports the evaluation of both Open Source models and APIs from providers like OpenAI, and even allows for the evaluation of adapters created using techniques such as LoRA.
+
+In this notebook, I will focus on a small but important feature of the library: evaluating models compatible with Hugging Face's Transformers library.
+| Article - WIP| [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/4-Evaluating%20LLMs/4_4_lm-evaluation-harness.ipynb)
+| ------ | ------ |
+
+
 ## [Fine Tuning & Optimization.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/5-Fine%20Tuning) 
 In the FineTuning & Optimization section, we will explore different techniques such as Prompt Fine Tuning or LoRA, and we will use the Hugging Face PEFT library to efficiently fine-tune Large Language Models. We will explore techniques like quantization to reduce the weight of the Models. 
 
