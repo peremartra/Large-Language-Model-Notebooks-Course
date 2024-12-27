@@ -264,7 +264,7 @@ _____________
 # References & Papers used in the Course: 
 * Tom Kocmi, Christian Federmann, [Large Language Models Are State-of-the-Art Evaluators of Translation Quality](https://arxiv.org/abs/2302.14520). Evaluating LLMs with LLMs. 
 
-* Pere Martra, [Introduction to Large Language Models with OpenAI]([https://link.springer.com/chapter/10.1007/979-8-8688-0515-8_1](https://doi.org/10.1007/979-8-8688-0515-8_1))
+* Pere Martra, [Introduction to Large Language Models with OpenAI]([https://link.springer.com/chapter/10.1007/979-8-8688-0515-8_1](https://doi.org/10.1007/979-8-8688-0515-8_1)
 
 * [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629). LangChain & Agents Section. Medical Assistant Sample.   
 
