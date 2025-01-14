@@ -222,6 +222,17 @@ The first thing to note is that removing entire layers from a transformer model 
 | [Notebook: Depth pruning a Llama Model.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_5_pruning_depth_st_llama3.2-1b_OK.ipynb) |
 | --- |
 
+# Knowledge distillation. 
+Knowledge Distillation involves training a smaller "student" model to mimic a larger, well-trained "teacher" model. The student learns not just from the correct labels but also from the probability distributions (soft targets) that the teacher model produces, effectively transferring the teacher's learned knowledge into a more compact form.
+
+When combined with Pruning, you first create a pruned version of your base model by removing less important connections. During this process, some knowledge is inevitably lost. To recover this lost knowledge, you can apply Knowledge Distillation using the original base model as the teacher and the pruned model as the student, helping to restore some of the lost performance.
+
+Both techniques address the same challenge: reducing model size and computational requirements while maintaining performance, making them crucial for deploying AI in resource-constrained environments like mobile devices.
+
+### Recovering knowledge from the base model using KD. 
+In this notebook, we will use Knowledge distillation to recover some of the knowledge lost during the model pruning process. Llama-3.2-1B will be used as the Teacher model, and the 40% pruned version will be used as the Student model. We will specifically improve the performance on the Lambada benchmark.
+| [Notebook: Knowledge Distillation Llama 3.2.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/7_1_knowledge_distillation_Llama.ipynb) |
+| --- |
 _____________
 <h1>🚀2- Projects.</h1>
 
