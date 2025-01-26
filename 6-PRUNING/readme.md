@@ -58,6 +58,19 @@ The first thing to note is that removing entire layers from a transformer model 
 | [Notebook: Depth pruning a Llama Model.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_5_pruning_depth_st_llama3.2-1b_OK.ipynb) |
 | --- |
 
+## Pruning Attention Layers. 
+This notebook implements the ideas presented in the paper: [What Matters in Transformers? Not All Attention is Needed](https://arxiv.org/abs/2406.15786). 
+
+In this notebook, the attention layers that contribute the least to the model are marked to be bypassed, improving inference efficiency and reducing the model's resource consumption. To identify the layers that contribute the least, a simple activation with a prompt is used, and the cosine similarity between the layer's input and output is measured. The smaller the difference, the less modification the layer introduces.
+
+The layer selection process implemented in the notebook is iterative. That is, the least contributing layer is selected, and the contribution of the remaining layers is recalculated using the same prompt. This process is repeated until the desired number of layers has been deactivated.
+
+Since this type of pruning does not alter the model's structure, it does not reduce the model's size.
+
+| Article: WIP. | [Notebook: Pruning Attention Layers.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_6_pruning_attention_layers.ipynb) |
+| --- | --- | 
+
+
 # Knowledge distillation. 
 Knowledge Distillation involves training a smaller "student" model to mimic a larger, well-trained "teacher" model. The student learns not just from the correct labels but also from the probability distributions (soft targets) that the teacher model produces, effectively transferring the teacher's learned knowledge into a more compact form.
 
