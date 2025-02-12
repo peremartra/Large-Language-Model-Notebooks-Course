@@ -126,7 +126,7 @@ In this example, two technologies seen previously are combined: agents and vecto
 In other words, a RAG system is created to assist a Medical ChatBot.
 
 **Attention!!! Use it only as an example. Nobody should take the boot's recommendations as those of a real doctor. I disclaim all responsibility for the use that may be given to the ChatBot. I have built it only as an example of different technologies.**
-| [Article](https://medium.com/towards-artificial-intelligence/query-your-dataframes-with-powerful-large-language-models-using-langchain-abe25782def5) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/3_1_RAG_langchain.ipynb) |
+| [Article](https://medium.com/towards-artificial-intelligence/query-your-dataframes-with-powerful-large-language-models-using-langchain-abe25782def5) | [Notebook](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/3-LangChain/3_4_Medical_Assistant_Agent.ipynb) |
 | ------ | ------ |
 
 ## [Evaluating LLMs.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/tree/main/4-Evaluating%20LLMs)
