@@ -52,7 +52,7 @@ With these two simple changes, which adapt the pruning process to the structure 
 | --- | --- | 
 
 ## Structured Depth Pruning. Eliminating complete blocks from large language models. 
-### Depth pruning in a Llama-3,2 model. 
+### Depth pruning in a Llama-3.2 model. 
 In this notebook, we will look at an example of depth pruning, which involves removing entire layers from the model.
 The first thing to note is that removing entire layers from a transformer model usually has a significant impact on the model's performance. This is a much more drastic architectural change compared to the simple removal of neurons from the MLP layers, as seen in the previous example.
 | [Notebook: Depth pruning a Llama Model.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_5_pruning_depth_st_llama3.2-1b_OK.ipynb) |
