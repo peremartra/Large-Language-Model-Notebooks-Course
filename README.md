@@ -25,6 +25,8 @@
 
 The course provides a hands-on experience using models from OpenAI and the Hugging Face library. We are going to see and use a lot of tools and practice with small projects that will grow as we can apply the new knowledge acquired. 
 
+![Large Language Models Course Path](LLM_course_diagram.jpg)
+
 <h1> The course is divided into three major sections:</h1>
 
 <h2>1- Techniques and Libraries:</h2> 
