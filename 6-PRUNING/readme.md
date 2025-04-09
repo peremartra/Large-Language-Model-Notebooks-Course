@@ -68,7 +68,7 @@ The layer selection process implemented in the notebook is iterative. That is, t
 Since this type of pruning does not alter the model's structure, it does not reduce the model's size.
 
 | Article: WIP. | [Notebook: Pruning Attention Layers.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_6_pruning_attention_layers.ipynb) |
-| --- | --- | 
+| --- | --- |
 
 
 # Knowledge distillation. 
@@ -94,6 +94,7 @@ Techniques applied:
   *  Differential activation analysis between contrastive groups
 
 | [Article: From Biased to Balanced: Visualizing and Fixing Bias in Transformer Models](https://medium.com/data-science-collective/from-biased-to-balanced-visualizing-and-fixing-bias-in-transformer-models-d1a82f35393c?sk=abd12073ee311c3752da3219a5baf20f) | [Notebook: 8_1_transformer_activations_visualization.ipynb](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/8_1_transformer_activations_visualization.ipynb) |
+| --- | --- |
 
 Why is it in the Pruning section?
 While this work is thematically aligned with fairness and equity evaluation in models, it's temporarily placed here due to its direct connection with upcoming fairness-aware pruning strategies. These strategies explore activation patterns as a criterion for reducing parameters while preserving the representation of different groups.
