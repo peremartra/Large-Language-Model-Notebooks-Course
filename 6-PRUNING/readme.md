@@ -58,7 +58,7 @@ The first thing to note is that removing entire layers from a transformer model 
 | [Notebook: Depth pruning a Llama Model.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_5_pruning_depth_st_llama3.2-1b_OK.ipynb) |
 | --- |
 
-## Pruning Attention Layers. 
+### Pruning Attention Layers. 
 This notebook implements the ideas presented in the paper: [What Matters in Transformers? Not All Attention is Needed](https://arxiv.org/abs/2406.15786). 
 
 In this notebook, the attention layers that contribute the least to the model are marked to be bypassed, improving inference efficiency and reducing the model's resource consumption. To identify the layers that contribute the least, a simple activation with a prompt is used, and the cosine similarity between the layer's input and output is measured. The smaller the difference, the less modification the layer introduces.
@@ -78,10 +78,30 @@ When combined with Pruning, you first create a pruned version of your base model
 
 Both techniques address the same challenge: reducing model size and computational requirements while maintaining performance, making them crucial for deploying AI in resource-constrained environments like mobile devices.
 
-### Recovering knwoledge from the base model using KD. 
+## Recovering knwoledge from the base model using KD. 
 In this notebook, we will use Knowledge distillation to recover some of the knowledge lost during the model pruning process. Llama-3.2-1B will be used as the Teacher model, and the 40% pruned version will be used as the Student model. We will specifically improve the performance on the Lambada benchmark.
 | [Notebook: Knowledge Distillation Llama 3.2.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/7_1_knowledge_distillation_Llama.ipynb) |
 | --- |
+
+# Bias & Fairness in LLMs. 
+This section introduces a preliminary line of work focused on detecting bias in LLMs by visualizing neural activations. While still in its early stages, these analyses pave the way for future fairness-aware pruning strategies, where structural pruning decisions also take into account the impact on different demographic or semantic groups.
+
+### Visualizing Bias in State of the art Transformer Models. 
+This notebook introduces techniques for visualizing neural activations in Transformer models, as a first step toward detecting and mitigating bias in language models.
+Techniques applied:
+  *  Dimensionality reduction with PCA
+  *  Visualization using heatmaps
+  *  Differential activation analysis between contrastive groups
+
+| [Article: From Biased to Balanced: Visualizing and Fixing Bias in Transformer Models](https://medium.com/data-science-collective/from-biased-to-balanced-visualizing-and-fixing-bias-in-transformer-models-d1a82f35393c?sk=abd12073ee311c3752da3219a5baf20f) | [Notebook: 8_1_transformer_activations_visualization.ipynb](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/8_1_transformer_activations_visualization.ipynb) |
+
+Why is it in the Pruning section?
+While this work is thematically aligned with fairness and equity evaluation in models, it's temporarily placed here due to its direct connection with upcoming fairness-aware pruning strategies. These strategies explore activation patterns as a criterion for reducing parameters while preserving the representation of different groups.
+
+This notebook will serve as the foundation for the future section 8-Bias, which will include:
+* Tools for automated bias analysis
+* Fairness experiments in pruned models
+* Integration with the WizardSData library for contrastive dataset generation
 
 ### References
 > Saurav Muralidharan, Sharath Turuvekere Sreenivas, Raviraj Joshi, Marcin Chochowski, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro, Jan Kautz, Pavlo Molchanov, "Compact Language Models via Pruning and Knowledge Distillation," arXiv preprint arXiv:2407.14679, 2024. Available at: [https://doi.org/10.48550/arXiv.2407.14679](https://doi.org/10.48550/arXiv.2407.14679).
