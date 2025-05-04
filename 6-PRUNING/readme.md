@@ -22,6 +22,8 @@
 # Pruning Techniques for Large Language Models
 **This section is still under construction. The goal is to build a curriculum that will take us from the most simple pruning techniques to creating a model using the same techniques employed by leading companies in the field, such as Microsoft, Google, Nvidia, or OpenAI, to build their models.**
 
+📢 A portion of the structured pruning work in this section was presented at the [STAC Summit 2025 in London](https://www.stacresearch.com/spring2025LON), an international event focused on AI in finance. The talk explored pruning strategies for LLMs models, with a focus on performance-efficiency trade-offs and carbon footprint reduction.
+
 Pruning is a crucial optimization technique in machine learning, particularly for large language models (LLMs). It involves reducing the size and complexity of a model by eliminating less important components—such as neurons, layers, or weights, while maintaining most of the model’s performance. Pruning helps to make models more efficient, reducing their computational and memory requirements, which is especially important when deploying models on resource-constrained environments like mobile devices or edge servers.
 
 One of the great advantages of pruning compared to other techniques like quantization is that when selecting parts of the model to remove, you can choose those that contribute less to the model’s output, depending on the intended use.
