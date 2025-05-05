@@ -1,4 +1,4 @@
-# Large Language Models Course: Learn by Doing LLM Projects.
+# Build with LLMs: Hands-on Projects for Engineers, Researchers and Developers using Large Language Models, GPT, LLaMA, LangChain and Hugging Face
 
 <table>
   <tr>
