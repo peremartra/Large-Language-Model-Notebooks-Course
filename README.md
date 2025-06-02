@@ -224,6 +224,7 @@ The first thing to note is that removing entire layers from a transformer model 
 | [Notebook: Depth pruning a Llama Model.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_5_pruning_depth_st_llama3.2-1b_OK.ipynb) |
 | --- |
 
+## Attention Bypass
 ### Pruning Attention Layers. 
 This notebook implements the ideas presented in the paper: [What Matters in Transformers? Not All Attention is Needed](https://arxiv.org/abs/2406.15786). 
 
@@ -235,6 +236,15 @@ Since this type of pruning does not alter the model's structure, it does not red
 
 | Article: WIP. | [Notebook: Pruning Attention Layers.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_6_pruning_attention_layers.ipynb) |
 | --- | --- | 
+
+### Adaptive Attention Bypass. 
+Adaptive models are those that can dynamically adapt their structure or change the parts they execute, either while creating the response or upon receiving the user's request. This notebook represents one of the first, if not the first, implementations of an adaptive model compatible with the Transformers library.
+
+The resulting model is capable of deciding which attention layers to execute depending on the complexity of the prompt it receives. It is the most complex notebook in the entire repository and is very close to what can be considered pure research. In fact, there is no paper that describes the functioning of the implemented method, so it is considered an original work by the author (Pere Martra).
+
+The model goes through a calibration process in which the importance of each layer is decided, and a configuration file is created. For each prompt received, the complexity is calculated using its length and embedding variance, and the model decides which layers it should use to provide a response to the user.
+| Article: WIP. | [Notebook: Adaptive Attention Bypass.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_6b_Adaptive_Inference_Attention_Pruning.ipynb) |
+| --- | --- |
 
 ## Knowledge distillation. 
 Knowledge Distillation involves training a smaller "student" model to mimic a larger, well-trained "teacher" model. The student learns not just from the correct labels but also from the probability distributions (soft targets) that the teacher model produces, effectively transferring the teacher's learned knowledge into a more compact form.
