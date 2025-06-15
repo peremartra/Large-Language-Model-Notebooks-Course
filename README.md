@@ -268,12 +268,18 @@ Techniques applied:
   *  Visualization using heatmaps
   *  Differential activation analysis between contrastive groups
 
-
 | Article                                                                 | Notebook                                                                 |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | [From Biased to Balanced: Visualizing and Fixing Bias in Transformer Models](https://medium.com/data-science-collective/from-biased-to-balanced-visualizing-and-fixing-bias-in-transformer-models-d1a82f35393c?sk=abd12073ee311c3752da3219a5baf20f) | [8_1_transformer_activations_visualization.ipynb](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/8_1_transformer_activations_visualization.ipynb) |
 
-### 
+### Targeted Pruning for Bias Mitigation in Transformer Models
+This notebook introduces a novel pruning method designed to mitigate bias in LLMs. By using pairs of contrastive prompts (e.g., "Black man" vs. "white man"), the method identifies neurons that respond differently depending on demographic cues. These neurons are then selectively removed based on a hybrid scoring system that combines bias contribution and structural importance.
+
+The technique is implemented using the [optipfair library](https://github.com/peremartra/optipfair), which provides detailed visualizations of layer-wise activations and internal bias metrics. You can explore the model’s internal behavior interactively via the companion Hugging Face Space: [🌐 Optipfair Bias Analyzer on Hugging Face](https://huggingface.co/spaces/oopere/optipfair-bias-analyzer). 
+
+The results speak for themselves: with just 0.13% of the parameters pruned, the model’s internal bias metric was reduced by 22%, with minimal performance loss. This proof of concept demonstrates that bias-aware pruning can be both precise and efficient—offering a practical tool for building fairer AI systems.
+| [Notebook: 8_2_Targeted_Pruning_for_Bias_Mitigation.ipynb](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/8_2_Targeted_Pruning_for_Bias_Mitigation.ipynb) |
+| ---------------------------------------------------------|
 
 _____________
 <h1>🚀2- Projects.</h1>
