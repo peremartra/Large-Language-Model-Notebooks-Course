@@ -81,19 +81,19 @@ The model goes through a calibration process in which the importance of each lay
 | Article: WIP. | [Notebook: Adaptive Attention Bypass.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/6_6b_Adaptive_Inference_Attention_Pruning.ipynb) |
 | --- | --- |
 
-# Knowledge distillation. 
+## Knowledge distillation. 
 Knowledge Distillation involves training a smaller "student" model to mimic a larger, well-trained "teacher" model. The student learns not just from the correct labels but also from the probability distributions (soft targets) that the teacher model produces, effectively transferring the teacher's learned knowledge into a more compact form.
 
 When combined with Pruning, you first create a pruned version of your base model by removing less important connections. During this process, some knowledge is inevitably lost. To recover this lost knowledge, you can apply Knowledge Distillation using the original base model as the teacher and the pruned model as the student, helping to restore some of the lost performance.
 
 Both techniques address the same challenge: reducing model size and computational requirements while maintaining performance, making them crucial for deploying AI in resource-constrained environments like mobile devices.
 
-## Recovering knwoledge from the base model using KD. 
+### Recovering knwoledge from the base model using KD. 
 In this notebook, we will use Knowledge distillation to recover some of the knowledge lost during the model pruning process. Llama-3.2-1B will be used as the Teacher model, and the 40% pruned version will be used as the Student model. We will specifically improve the performance on the Lambada benchmark.
 | [Notebook: Knowledge Distillation Llama 3.2.](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/7_1_knowledge_distillation_Llama.ipynb) |
 | --- |
 
-# Bias & Fairness in LLMs. 
+## Bias & Fairness in LLMs. 
 This section introduces a preliminary line of work focused on detecting bias in LLMs by visualizing neural activations. While still in its early stages, these analyses pave the way for future fairness-aware pruning strategies, where structural pruning decisions also take into account the impact on different demographic or semantic groups.
 
 ### Visualizing Bias in State of the art Transformer Models. 
@@ -105,6 +105,15 @@ Techniques applied:
 
 | [Article: From Biased to Balanced: Visualizing and Fixing Bias in Transformer Models](https://medium.com/data-science-collective/from-biased-to-balanced-visualizing-and-fixing-bias-in-transformer-models-d1a82f35393c?sk=abd12073ee311c3752da3219a5baf20f) | [Notebook: 8_1_transformer_activations_visualization.ipynb](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/8_1_transformer_activations_visualization.ipynb) |
 | --- | --- |
+
+### Targeted Pruning for Bias Mitigation in Transformer Models
+This notebook introduces a novel pruning method designed to mitigate bias in LLMs. By using pairs of contrastive prompts (e.g., "Black man" vs. "white man"), the method identifies neurons that respond differently depending on demographic cues. These neurons are then selectively removed based on a hybrid scoring system that combines bias contribution and structural importance.
+
+The technique is implemented using the [optipfair library](https://github.com/peremartra/optipfair), which provides detailed visualizations of layer-wise activations and internal bias metrics. You can explore the model’s internal behavior interactively via the companion Hugging Face Space: [🌐 Optipfair Bias Analyzer on Hugging Face](https://huggingface.co/spaces/oopere/optipfair-bias-analyzer). 
+
+The results speak for themselves: with just 0.13% of the parameters pruned, the model’s internal bias metric was reduced by 22%, with minimal performance loss. This proof of concept demonstrates that bias-aware pruning can be both precise and efficient—offering a practical tool for building fairer AI systems.
+| [Notebook: 8_2_Targeted_Pruning_for_Bias_Mitigation.ipynb](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/8_2_Targeted_Pruning_for_Bias_Mitigation.ipynb) |
+| ---------------------------------------------------------|
 
 Why is it in the Pruning section?
 While this work is thematically aligned with fairness and equity evaluation in models, it's temporarily placed here due to its direct connection with upcoming fairness-aware pruning strategies. These strategies explore activation patterns as a criterion for reducing parameters while preserving the representation of different groups.
