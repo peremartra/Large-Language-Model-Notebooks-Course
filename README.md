@@ -341,6 +341,15 @@ _____________
 
 * Kim, B. K., Kim, G., Kim, T. H., Castells, T., Choi, S., Shin, J., & Song, H. K. (2024). Shortened llama: A simple depth pruning for large language models. arXiv preprint arXiv:2402.02834, 11. https://doi.org/10.48550/arXiv.2402.02834
 
+```
+@software{optipfair2025,
+  author = {Pere Martra},
+  title = {OptiPFair: A Library for Structured Pruning of Large Language Models},
+  year = {2025},
+  url = {https://github.com/peremartra/optipfair}
+}
+```
+
 * Martra, P. (2024, December 26). Exploring GLU Expansion Ratios: Structured Pruning in Llama-3.2 Models. https://doi.org/10.31219/osf.io/qgxea
 
 
