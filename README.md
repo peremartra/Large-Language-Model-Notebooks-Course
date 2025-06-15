@@ -267,8 +267,14 @@ Techniques applied:
   *  Dimensionality reduction with PCA
   *  Visualization using heatmaps
   *  Differential activation analysis between contrastive groups
-| [Article: From Biased to Balanced: Visualizing and Fixing Bias in Transformer Models](https://medium.com/data-science-collective/from-biased-to-balanced-visualizing-and-fixing-bias-in-transformer-models-d1a82f35393c?sk=abd12073ee311c3752da3219a5baf20f) | [Notebook: 8_1_transformer_activations_visualization.ipynb](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/8_1_transformer_activations_visualization.ipynb) |
-| --- | --- |
+
+
+| Article                                                                 | Notebook                                                                 |
+|-------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| [From Biased to Balanced: Visualizing and Fixing Bias in Transformer Models](https://medium.com/data-science-collective/from-biased-to-balanced-visualizing-and-fixing-bias-in-transformer-models-d1a82f35393c?sk=abd12073ee311c3752da3219a5baf20f) | [8_1_transformer_activations_visualization.ipynb](https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/6-PRUNING/8_1_transformer_activations_visualization.ipynb) |
+
+### 
+
 _____________
 <h1>🚀2- Projects.</h1>
 
