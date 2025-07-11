@@ -123,7 +123,20 @@ This notebook will serve as the foundation for the future section 8-Bias, which 
 * Fairness experiments in pruned models
 * Integration with the WizardSData library for contrastive dataset generation
 
-### References
+## From Theory to Practice with OptiPFair 🚀
+Congratulations on making it this far! Everything you've learned in this course about pruning and bias analysis is implemented, or will be implemented, and ready to use in OptiPFair, my open-source library for building more efficient and fair LLMs.
+
+**Want to try it right now?** The easiest way to start is with our interactive checkers. Find out in 30 seconds if your model is compatible:
+
+* Pruning Compatibility Checker: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peremartra/optipfair/blob/main/examples/pruning_compatibility_check.ipynb.ipynb)
+
+* Bias Analysis Compatibility Checker: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/peremartra/optipfair/blob/main/examples/bias_compatibility_check.ipynb)
+
+**Take your development to the next level**: When you're ready to build, use the [`optipfair_llm_reference_manual.txt`](https://github.com/peremartra/optipfair/blob/main/optipfair_llm_reference_manual.txt) with your favorite LLM (ChatGPT, Claude, Gemini) to generate integration code instantly. It's like pair-programming with an [OptiPFair](https://github.com/peremartra/optipfair) expert!
+
+**Your support drives the project**. If you liked the techniques from the course, the best way to show support is by **giving the [OptiPFair GitHub](https://github.com/peremartra/optipfair) repository a star ⭐**.
+
+## References
 > Saurav Muralidharan, Sharath Turuvekere Sreenivas, Raviraj Joshi, Marcin Chochowski, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro, Jan Kautz, Pavlo Molchanov, "Compact Language Models via Pruning and Knowledge Distillation," arXiv preprint arXiv:2407.14679, 2024. Available at: [https://doi.org/10.48550/arXiv.2407.14679](https://doi.org/10.48550/arXiv.2407.14679).
 
 > He, S., Sun, G., Shen, Z., & Li, A. (2024). What matters in transformers? not all attention is needed. arXiv preprint arXiv:2406.15786. https://doi.org/10.48550/arXiv.2406.15786
