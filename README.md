@@ -1,10 +1,17 @@
 # Build with LLMs: Hands-on Projects for Engineers, Researchers and Developers using Large Language Models, GPT, LLaMA, LangChain and Hugging Face
+<p align="center">
+<a href="https://hubs.la/Q040tvsK0">
+<img width="451" height="257" alt="newinmeap" src="https://github.com/user-attachments/assets/6ec9e833-6bc4-4792-9c09-230744027841" />
+</a>
+</p>
+
+### 🚨  News: I'm writing "Rearchitecting LLMs" with Manning! Learn to dismantle and rebuild Transformers using Pruning, Knowledge Distillation, and Attention Bypass—the same techniques elite AI labs use to push the boundaries of model efficiency. [Check the MEAP here](https://hubs.la/Q040tvsK0). 50% Off till 12 February 🚨
 
 <table>
   <tr>
     <td  width="130">
       <a href="https://amzn.to/4eanT1g">
-        <img src="https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/img/Large_Language_Models_Projects_Book.jpg" height="160" width="104">
+        <img src="https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/img/Large_Language_Models_Projects_Book.jpg"  alt="Rearchitecting LLMs" width="100%">
       </a>
     </td>
     <td>
