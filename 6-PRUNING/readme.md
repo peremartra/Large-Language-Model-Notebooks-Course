@@ -1,5 +1,3 @@
-**disclaimer: The pruning section was created after the first edition of the book was published. They are not included in the book’s original content but are intended to supplement and expand on the topics covered.**
-
 <p align="center">
 <a href="https://hubs.la/Q040tvsK0">
 <img width="451" height="257" alt="newinmeap" src="https://github.com/user-attachments/assets/6ec9e833-6bc4-4792-9c09-230744027841" />
