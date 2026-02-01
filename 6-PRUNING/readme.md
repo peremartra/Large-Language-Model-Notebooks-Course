@@ -1,23 +1,13 @@
 **disclaimer: The pruning section was created after the first edition of the book was published. They are not included in the book’s original content but are intended to supplement and expand on the topics covered.**
 
-<table>
-  <tr>
-    <td  width="130">
-      <a href="https://amzn.to/4eanT1g">
-        <img src="https://github.com/peremartra/Large-Language-Model-Notebooks-Course/blob/main/img/Large_Language_Models_Projects_Book.jpg" height="160" width="104">
-      </a>
-    </td>
-    <td>
-      <p>
-        This is the unofficial repository for the book: 
-        <a href="https://amzn.to/4eanT1g"> <b>Large Language Models:</b> Apply and Implement Strategies for Large Language Models</a> (Apress).
-        The book is based on the content of this repository, but the notebooks are being updated, and I am incorporating new examples and chapters.
-        If you are looking for the official repository for the book, with the original notebooks, you should visit the 
-        <a href="https://github.com/Apress/Large-Language-Models-Projects">Apress repository</a>, where you can find all the notebooks in their original format as they appear in the book. Buy it at: <a href="https://amzn.to/3Bq2zqs">[Amazon]</a> <a href="https://link.springer.com/book/10.1007/979-8-8688-0515-8">[Springer]</a>
-      </p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+<a href="https://hubs.la/Q040tvsK0">
+<img width="451" height="257" alt="newinmeap" src="https://github.com/user-attachments/assets/6ec9e833-6bc4-4792-9c09-230744027841" />
+</a>
+</p>
+
+### 🚨  News: I'm writing "Rearchitecting LLMs" with Manning! The content in this section has led to a new book: "Rearchitecting LLMs - Structural techniques for efficient models." The notebooks in this section are just the beginning of a book that details techniques used by major labs in the creation and optimization of their model families.. [Check the MEAP here](https://hubs.la/Q040tvsK0). 50% Off till 12 February 🚨
+
 
 # Pruning Techniques for Large Language Models
 **This section is still under construction. The goal is to build a curriculum that will take us from the most simple pruning techniques to creating a model using the same techniques employed by leading companies in the field, such as Microsoft, Google, Nvidia, or OpenAI, to build their models.**
