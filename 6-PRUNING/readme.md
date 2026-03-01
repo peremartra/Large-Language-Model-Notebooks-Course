@@ -4,7 +4,7 @@
 </a>
 </p>
 
-### 🚨  News: I'm writing "Rearchitecting LLMs" with Manning! The content in this section has led to a new book: "Rearchitecting LLMs - Structural techniques for efficient models." The notebooks in this section are just the beginning of a book that details techniques used by major labs in the creation and optimization of their model families.. [Check the MEAP here](https://hubs.la/Q040tvsK0). 50% Off till 12 February 🚨
+### 🚨  News: I'm writing "Rearchitecting LLMs" with Manning! The content in this section has led to a new book: "Rearchitecting LLMs - Structural techniques for efficient models." The notebooks in this section are just the beginning of a book that details techniques used by major labs in the creation and optimization of their model families.. [Check the MEAP here](https://hubs.la/Q040tvsK0). 🚨
 
 
 # Pruning Techniques for Large Language Models
