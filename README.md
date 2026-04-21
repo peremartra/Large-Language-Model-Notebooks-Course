@@ -5,7 +5,12 @@
 </a>
 </p>
 
-### 🚨  News: I'm writing "Rearchitecting LLMs" with Manning! Learn to dismantle and rebuild Transformers using Pruning, Knowledge Distillation, and Attention Bypass—the same techniques elite AI labs use to push the boundaries of model efficiency. [Check the MEAP here](https://hubs.la/Q040tvsK0). 50% Off mith code: MLMartra. 🚨
+> [!IMPORTANT]
+> **🐉 World Book Day Flash Sale (Apr 21 - Apr 24) 🌹**
+> To celebrate *Sant Jordi* (the traditional festival of books and roses), Manning is offering a **45% discount** on my upcoming book, [*Rearchitecting LLMs*](https://hubs.la/Q040tvsK0), in all formats. 
+>
+> Learn how to tame large models using structural pruning, knowledge distillation, and LoRA. 
+> Use code **`SJORDI45`** at checkout!
 
 <table>
   <tr>
