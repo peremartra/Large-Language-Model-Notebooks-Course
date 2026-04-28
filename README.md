@@ -1,4 +1,12 @@
-# Build with LLMs: Hands-on Projects for Engineers, Researchers and Developers using Large Language Models, GPT, LLaMA, LangChain and Hugging Face
+> [!IMPORTANT]
+> ### ⚡ FLASH SALE: 45% OFF ONLY TODAY!
+> My book **"Rearchitecting LLMs"** is Manning's **Deal of the Day**. 
+> Learn to build hyper-efficient Small Language Models (SLMs) using Pruning, Distillation, and Quantization.
+>
+> **[👉 Get the discount here](https://www.manning.com/dotd)**
+
+---
+## Build with LLMs: Hands-on Projects for Engineers, Researchers and Developers using Large Language Models, GPT, LLaMA, LangChain and Hugging Face
 <p align="center">
 <a href="https://hubs.la/Q040tvsK0">
 <img width="451" height="257" alt="newinmeap" src="https://github.com/user-attachments/assets/6ec9e833-6bc4-4792-9c09-230744027841" />
