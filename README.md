@@ -1,9 +1,3 @@
-> [!IMPORTANT]
-> ### ⚡ FLASH SALE: 45% OFF ONLY TODAY!
-> My book **"Rearchitecting LLMs"** is Manning's **Deal of the Day**. 
-> Learn to build hyper-efficient Small Language Models (SLMs) using Pruning, Distillation, and Quantization.
->
-> **[👉 Get the discount here](https://www.manning.com/dotd)**
 
 ---
 ## Build with LLMs: Hands-on Projects for Engineers, Researchers and Developers using Large Language Models, GPT, LLaMA, LangChain and Hugging Face
