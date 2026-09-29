@@ -329,7 +329,7 @@ Give a Star ⭐️ to the repository. It helps me a lot, and encourages me to co
 
 _____________
 # References & Papers used in the Course: 
-* Pere Martra [Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2](https://www.techrxiv.org/users/1001026/articles/1361522-fragile-knowledge-robust-instruction-following-the-width-pruning-dichotomy-in-llama-3-2). Width pruning. 
+* Pere Martra [Fragile Knowledge, Robust Instruction-Following: The Width Pruning Dichotomy in Llama-3.2](https://arxiv.org/abs/2512.22671). Width pruning. 
 
 * Tom Kocmi, Christian Federmann, [Large Language Models Are State-of-the-Art Evaluators of Translation Quality](https://arxiv.org/abs/2302.14520). Evaluating LLMs with LLMs. 
 
